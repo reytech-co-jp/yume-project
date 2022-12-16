@@ -5,7 +5,7 @@ Javaの条件についてまずIfの課題をやってみましょう。
 # If文の使い方
 
 If文の使い方についてはこちらのリンクを参考にしてください。   
-ifの使い方の参考リンク: 
+ifの使い方の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/if_statement_questions/lessons/java/sources/01.Java%E6%9D%A1%E4%BB%B6%E6%96%87.md#if%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
  
 # 準備
 
