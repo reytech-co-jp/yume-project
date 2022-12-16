@@ -1,0 +1,114 @@
+# このドキュメントで学ぶこと
+
+Javaの条件についてまずIfの課題をやってみましょう。
+
+# If文の使い方
+
+If文の使い方についてはこちらのリンクを参考にしてください。
+ifの使い方の参考リンク: 
+
+# 準備
+
+`Main.java`に下記のように`greeting`というString型変数を記述してください。
+```java
+public class Main {
+
+  public static void main(String[] args) {
+    String greeting = "Hello World";
+  }
+
+}
+```
+
+Stringについて知らない方はこちらのリンクを参考にして読んでみてください。   
+参考リンク: https://www.w3schools.com/java/java_strings.asp
+ 
+# 課題１   
+
+`greeting`にある文字の長さは10以上とき`greetingの長さは10以上です。`というメッセージを表示してください。   
+出力は下記のようになります。
+```java
+greetingの長さは10以上です。
+```
+
+ここで使う(String.length)Stringクラスのメソッドを知らない方はこちらのサイトを参考にしてください。   
+参考リンク: https://www.w3schools.com/java/ref_string_length.asp
+
+# 課題２
+
+greetingにある文字の長さは10以上で20未満のときは`greeting`にある文字を大文字に変更して、その文字の長さを表示してください。   
+出力の文書は下記のようになります。
+```java
+Greeting : HELLO WORLD
+greetingの長さは11です。
+```
+
+大文字(UPPER CASE)について参考リンク: https://www.w3schools.com/java/ref_string_touppercase.asp   
+printfの参考リンク: https://www.baeldung.com/java-printstream-printf#syntax
+
+# 課題３
+
+`greeting`にある文字にスペースがある場合は`greetingの値にスペースがあります！`というメッセージ表示してください。   
+出力は下記のようになります。
+```java
+greetingの値にスペースがあります！
+```
+
+ここで使う(String.contains)Stringクラスのメソッドを知らない方はこちらのサイトを参考にしてください。 
+参考リンク: https://www.w3schools.com/java/ref_string_contains.asp  
+
+# 課題４+ α
+
+下記のように`greeting2`というもう一つのString型変数を記述してください。
+```java
+public class Main {
+
+  public static void main(String[] args) {
+    String greeting = "Hello World";
+    String greeting2 = "hello world";
+  }
+
+}
+```
+
+# 課題４
+
+もし`greeting`と`greeting2`の値が同じで長さも等しいときは`"greetingとgreeting2が同じです。"`というメッセージを表示してください。   
+出力は下記のようになります。
+```java
+greetingとgreeting2が同じです。
+```
+
+こちらで使う`&&`論理演算子はこちらのサイトを参考にしてください。   
+論理演算子の参考リンク: https://www.geeksforgeeks.org/java-logical-operators-with-examples/   
+
+# 課題５+ α 
+
+`worldIndex`という`Integer`型変数を記述してください。   
+下記のように`worldIndex`の値は`greeting`から`World`のインデックスを取得して記載してください。
+```java
+public class Main {
+
+  public static void main(String[] args) {
+    String greeting = "Hello World";
+    int worldIndex = _______; //こちらWorldのインデックスを取得して記載する
+  }
+
+}
+```
+
+greetingからWorldのインデックスを取得する方法: https://www.w3schools.com/java/ref_string_indexof.asp
+
+# 課題５
+
+もし`worldIndex`の値が5以上のときは`greeting`から`World`の文字を取得して表示してください。   
+出力は下記のようになります。
+```java
+World
+```
+
+greetingからWorldの文字を取得する方法: https://www.geeksforgeeks.org/substring-in-java/   
+
+# 宿題
+
+※この宿題はSlackに提出しなくても大丈夫です。
