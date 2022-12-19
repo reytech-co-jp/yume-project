@@ -1,15 +1,18 @@
-# このドキュメントで学ぶこと
+# 条件文の課題
 
-Javaの条件についてまずIfの課題をやってみましょう。
+Javaの条件文の課題をやってみましょう。
 
-# If文の使い方
+# if文の使い方
 
-If文の使い方についてはこちらのリンクを参考にしてください。   
+if文の使い方についてはこちらのリンクを参考にしてください。   
 ifの使い方の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/if_statement_questions/lessons/java/sources/01.Java%E6%9D%A1%E4%BB%B6%E6%96%87.md#if%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
+
+# お願い
+こちらの課題は課題ごとに新しいプロジェクトを作成しないで一つの`Main.java`にいろいろ試してみてください。
  
 # 準備
 
-`Main.java`に下記のように`num1`と`num2`というInteger型である2つの変数を記述してください。   
+`Main.java`に下記のように`num1`と`num2`というint型である2つの変数を記述してください。   
 num1変数に10、num2変数に5整数を代入してください。
 ```java
 public class Main {
@@ -21,29 +24,26 @@ public class Main {
 
 }
 ```
-
-Integer型変数について知らない方はこちらのリンクを参考にして読んでみてください。   
+int型変数について知らない方はこちらのリンクを参考にして読んでみてください。   
 参考リンク: https://www.w3schools.com/java/java_variables.asp
 
 # 課題１
 
-`num1`の値が`num2`の値より大きい場合は`Num1の値がnum2の値より大きいです。`というメッセージを表示してください。   
+`num1`の値が`num2`の値より大きい場合は`num1の値がnum2の値より大きいです。`というメッセージを表示してください。   
 出力は下記のようになります。
 ```java
-Num1の値がnum2の値より大きいです。
+num1の値がnum2の値より大きいです。
 ```
-
 ここで使う比較演算子を知らない方はこちらのサイトを参考にしてください。   
 比較演算子の参考リンク: https://www.w3schools.com/java/java_operators.asp   
 
 # 課題２
 
-`num1`と`num2`の足し算は15以上の場合は`Num1とnum2の足し算値は15以上です。`というメッセージを表示してください。   
+`num1`と`num2`の足し算は15以上の場合は`num1とnum2の足し算値は15以上です。`というメッセージを表示してください。   
 出力は下記のようになります。
 ```java
-Num1とnum2の足し算値は15以上です。
+num1とnum2の足し算値は15以上です。
 ```
-
 ここで使う比較演算子を知らない方はこちらのサイトを参考にしてください。   
 比較演算子の参考リンク: https://www.w3schools.com/java/java_operators.asp   
 
@@ -55,9 +55,8 @@ https://foreignlang.ecc.co.jp/learn/l00064d/
 `num1`の値が15より大きい、それとも`num2`の値が10以下の場合は`num1`と`num2`の引き算を表示してください。     
 出力は下記のようになります。
 ```java
-num1とnumの引数: 5
+num1とnum2の引き算: 5
 ```
-
 こちらで使う`||`論理演算子はこちらのサイトを参考にしてください。   
 論理演算子の参考リンク: https://www.geeksforgeeks.org/java-logical-operators-with-examples/
 
@@ -66,9 +65,8 @@ num1とnumの引数: 5
 `num1`の値が10以上で`num2`の値が6未満の場合だけ`num1`と`num2`の足し算を表示してください。   
 出力は下記のようになります。
 ```java
-num1とnumの足し算: 15
+num1とnum2の足し算: 15
 ```
-
 こちらで使う`&&`論理演算子はこちらのサイトを参考にしてください。   
 論理演算子の参考リンク: https://www.geeksforgeeks.org/java-logical-operators-with-examples/  
 

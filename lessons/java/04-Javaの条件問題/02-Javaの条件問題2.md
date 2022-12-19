@@ -1,11 +1,14 @@
-# このドキュメントで学ぶこと
+# 条件文の課題
 
-Javaの条件についてまずIfの課題をやってみましょう。
+Javaの条件文の課題をやってみましょう。
 
-# If文の使い方
+# if文の使い方
 
-If文の使い方についてはこちらのリンクを参考にしてください。   
+if文の使い方についてはこちらのリンクを参考にしてください。   
 ifの使い方の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/if_statement_questions/lessons/java/sources/01.Java%E6%9D%A1%E4%BB%B6%E6%96%87.md#if%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
+
+# お願い
+こちらの課題は課題ごとに新しいプロジェクトを作成しないで一つの`Main.java`にいろいろ試してみてください。
 
 # 準備
 
@@ -19,7 +22,6 @@ public class Main {
 
 }
 ```
-
 Stringについて知らない方はこちらのリンクを参考にして読んでみてください。   
 参考リンク: https://www.w3schools.com/java/java_strings.asp
  
@@ -30,19 +32,17 @@ Stringについて知らない方はこちらのリンクを参考にして読�
 ```java
 greetingの長さは10以上です。
 ```
-
 ここで使う(String.length)Stringクラスのメソッドを知らない方はこちらのサイトを参考にしてください。   
 参考リンク: https://www.w3schools.com/java/ref_string_length.asp
 
 # 課題２
 
-greetingにある文字の長さは10以上で20未満のときは`greeting`にある文字を大文字に変更して、その文字の長さを表示してください。   
+`greeting`にある文字の長さは10以上で20未満のときは`greeting`にある文字を大文字に変更して、その文字の長さを表示してください。   
 出力の文書は下記のようになります。
 ```java
-Greeting : HELLO WORLD
+greeting : HELLO WORLD
 greetingの長さは11です。
 ```
-
 大文字(UPPER CASE)について参考リンク: https://www.w3schools.com/java/ref_string_touppercase.asp   
 printfの参考リンク: https://www.baeldung.com/java-printstream-printf#syntax
 
@@ -53,7 +53,6 @@ printfの参考リンク: https://www.baeldung.com/java-printstream-printf#synta
 ```java
 greetingの値にスペースがあります！
 ```
-
 ここで使う(String.contains)Stringクラスのメソッドを知らない方はこちらのサイトを参考にしてください。   
 参考リンク: https://www.w3schools.com/java/ref_string_contains.asp  
 
@@ -78,13 +77,12 @@ public class Main {
 ```java
 greetingとgreeting2が同じです。
 ```
-
 こちらで使う`&&`論理演算子はこちらのサイトを参考にしてください。   
 論理演算子の参考リンク: https://www.geeksforgeeks.org/java-logical-operators-with-examples/   
 
 # 課題５+ α 
 
-`worldIndex`という`Integer`型変数を記述してください。   
+`worldIndex`というint型変数を記述してください。   
 下記のように`worldIndex`の値は`greeting`から`World`のインデックスを取得して記載してください。
 ```java
 public class Main {
@@ -96,7 +94,6 @@ public class Main {
 
 }
 ```
-
 greetingからWorldのインデックスを取得する方法: https://www.w3schools.com/java/ref_string_indexof.asp
 
 # 課題５
@@ -106,7 +103,6 @@ greetingからWorldのインデックスを取得する方法: https://www.w3sch
 ```java
 World
 ```
-
 greetingからWorldの文字を取得する方法: https://www.geeksforgeeks.org/substring-in-java/   
 
 # 宿題
