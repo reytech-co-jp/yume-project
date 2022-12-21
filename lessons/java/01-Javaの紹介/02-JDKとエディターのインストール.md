@@ -48,9 +48,9 @@ javac 11.0.2
 
 ## エディタインストール
 
-エディタはEclipseとかVS Codeとか自分が好きなエディタを使っても大丈夫です。
+エディタはEclipseとかVS Codeとか自分が好きなエディタを使っても大丈夫です。   
 この夢プロジェクトではIntellijを使っていきます。
-IntellijのインストールもOSによって少し違うのでこちらのサイトを参考にしつつ自分でやってみてください。
+IntellijのインストールもOSによって少し違うのでこちらのサイトを参考にしつつ自分でやってみてください。   
 参考リンク： https://www.jetbrains.com/help/idea/installation-guide.html
 
 ## エディタの設定
