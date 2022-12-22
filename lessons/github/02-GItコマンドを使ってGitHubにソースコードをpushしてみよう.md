@@ -31,7 +31,7 @@ git pull はリモートリポジトリから最新の状態をローカルリ�
 
 ![Screen Shot 2022-12-22 at 1 48 55](https://user-images.githubusercontent.com/28291036/208960007-2cb69e92-7cf0-4912-ab84-eb029bece84f.png)
 
-- プシュされたファイルをGitHubに確認する  
+- pushされたファイルをGitHubに確認する  
 
 ![Screen Shot 2022-12-22 at 1 53 48](https://user-images.githubusercontent.com/28291036/208961126-e5389aad-7aeb-4a7c-b821-ae3df9aaca30.png)
 
