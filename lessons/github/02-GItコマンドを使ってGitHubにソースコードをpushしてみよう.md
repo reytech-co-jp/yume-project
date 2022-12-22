@@ -21,13 +21,13 @@ git pull はリモートリポジトリから最新の状態をローカルリ�
 * git pull
 
 ### git add, git commit, git push
-- READ.mdを修正して```git status```で確認する　　
+- README.mdを修正して```git status```で確認する　　
 
 ![Screen Shot 2022-12-22 at 1 38 16](https://user-images.githubusercontent.com/28291036/208957656-abccb5db-a448-4920-92a2-6651de1d23ec.png)
 
-- READ.mdを```git add . ```でアットする
-- アットしたREAD.mdをローカルリポジトリに```git commit -m commit-message```でコミットする
-- READ.mdをリモートリポジトリに```git push origin branch-name```でプシュする  
+- README.mdを```git add . ```でaddする
+- addしたREADME.mdをローカルリポジトリに```git commit -m commit-message```でcommitする
+- README.mdをリモートリポジトリに```git push origin branch-name```でpushする  
 
 ![Screen Shot 2022-12-22 at 1 48 55](https://user-images.githubusercontent.com/28291036/208960007-2cb69e92-7cf0-4912-ab84-eb029bece84f.png)
 
@@ -36,15 +36,15 @@ git pull はリモートリポジトリから最新の状態をローカルリ�
 ![Screen Shot 2022-12-22 at 1 53 48](https://user-images.githubusercontent.com/28291036/208961126-e5389aad-7aeb-4a7c-b821-ae3df9aaca30.png)
 
 ### git pull
-- GitHubから直接READ.mdを修正する  
+- GitHubから直接README.mdを修正する  
 
 ![Screen Shot 2022-12-22 at 1 58 36](https://user-images.githubusercontent.com/28291036/208962019-be10b0f2-d5b5-49b3-b598-cb233c518af4.png)
 
-- 修正したREAD.mdをプシュする  
+- 修正したREADME.mdをpushする  
 
 ![Screen Shot 2022-12-22 at 1 58 46](https://user-images.githubusercontent.com/28291036/208962050-936743c6-3f14-4f2a-a477-b747aeafae79.png)
 
-- ローカルから```git pull origin branch-name```でプルしてREAD.mdが修正されているのを```cat READ.md```で確認する  
+- ローカルから```git pull origin branch-name```でプルしてREADME.mdが修正されているのを```cat README.md```で確認する  
 
 ![Screen Shot 2022-12-22 at 2 02 49](https://user-images.githubusercontent.com/28291036/208962777-b49215a4-98e9-4750-b4ed-b6066dd7656a.png)
 
@@ -53,26 +53,26 @@ git pull はリモートリポジトリから最新の状態をローカルリ�
 ### 準備
 * [こちら](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/github/01-%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%B3%E3%83%96%E3%83%A9%E3%83%B3%E3%83%81.md#%E5%AE%BF%E9%A1%8C)の宿題が完了していること
 ### 概要
-- ローカルからREAD.mdを以下のように修正する
+- ローカルからREADME.mdを以下のように修正する
   ```
   # hello-world
   My first repo
   My first commit
   ```
-2. そのファイルをアットする
-3. コミットメッセージに‘My first commitというメッセージををREAD.mdに書く’というメッセージを書く
-4. 修正したREAD.mdをプシュする
-5. GitHubからREAD.mdを以下のように修正する
+2. そのファイルをaddする
+3. コミットメッセージに‘My first commitというメッセージををREADME.mdに書く’というメッセージを書く
+4. 修正したREADME.mdをpushする
+5. GitHubからREADME.mdを以下のように修正する
   ```
   # hello-world
   My first repo
   My first commit
   My second commit
   ```
-6. コミットメッセージに‘My second commitというメッセージををREAD.mdに書く’というメッセージを書く
-7. 修正したREAD.mdをプシュする
-8. ローカルからプルする
+6. コミットメッセージに‘My second commitというメッセージををREADME.mdに書く’というメッセージを書く
+7. 修正したREADME.mdをpushする
+8. ローカルからpullする
 ### どうなったら宿題が完了と言えるのか
-* ローカルから修正したREAD.mdがGitにプシュされている
-* リモートから修正したREAD.mdがローカルにプルされている
+* ローカルから修正したREADME.mdがGitにpushされている
+* リモートから修正したREADME.mdがローカルにpullされている
 
