@@ -29,11 +29,11 @@ git pull はリモートリポジトリから最新の状態をローカルリ�
 - addしたREADME.mdをローカルリポジトリに```git commit -m commit-message```でcommitする
 - README.mdをリモートリポジトリに```git push origin branch-name```でpushする  
 
-![Screen Shot 2022-12-22 at 1 48 55](https://user-images.githubusercontent.com/28291036/208960007-2cb69e92-7cf0-4912-ab84-eb029bece84f.png)
+![Screen Shot 2022-12-23 at 13 49 53](https://user-images.githubusercontent.com/28291036/209273178-0c9933a9-f159-4eb5-877a-46ffb03761b2.png)  
 
 - pushされたファイルをGitHubに確認する  
 
-![Screen Shot 2022-12-22 at 1 53 48](https://user-images.githubusercontent.com/28291036/208961126-e5389aad-7aeb-4a7c-b821-ae3df9aaca30.png)
+![Screen Shot 2022-12-23 at 14 02 44](https://user-images.githubusercontent.com/28291036/209274308-dc8cb067-527f-4a84-b60d-2528686b1092.png)  
 
 ### git pull
 - GitHubから直接README.mdを修正する  
@@ -42,9 +42,9 @@ git pull はリモートリポジトリから最新の状態をローカルリ�
 
 - 修正したREADME.mdをpushする  
 
-![Screen Shot 2022-12-22 at 1 58 46](https://user-images.githubusercontent.com/28291036/208962050-936743c6-3f14-4f2a-a477-b747aeafae79.png)
+![Screen Shot 2022-12-23 at 13 58 44](https://user-images.githubusercontent.com/28291036/209273959-dfa711d2-1429-4c31-a493-a3198df45f6d.png)  
 
-- ローカルから```git pull origin branch-name```でプルしてREADME.mdが修正されているのを```cat README.md```で確認する  
+- ローカルから```git pull origin branch-name```でpullしてREADME.mdが修正されているのを```cat README.md```で確認する  
 
 ![Screen Shot 2022-12-22 at 2 02 49](https://user-images.githubusercontent.com/28291036/208962777-b49215a4-98e9-4750-b4ed-b6066dd7656a.png)
 
@@ -60,7 +60,7 @@ git pull はリモートリポジトリから最新の状態をローカルリ�
   My first commit
   ```
 2. そのファイルをaddする
-3. コミットメッセージに‘My first commitというメッセージををREADME.mdに書く’というメッセージを書く
+3. コミットメッセージに‘My first commitというメッセージをREADME.mdに書く’というメッセージを書く
 4. 修正したREADME.mdをpushする
 5. GitHubからREADME.mdを以下のように修正する
   ```
@@ -69,7 +69,7 @@ git pull はリモートリポジトリから最新の状態をローカルリ�
   My first commit
   My second commit
   ```
-6. コミットメッセージに‘My second commitというメッセージををREADME.mdに書く’というメッセージを書く
+6. コミットメッセージに‘My second commitというメッセージをREADME.mdに書く’というメッセージを書く
 7. 修正したREADME.mdをpushする
 8. ローカルからpullする
 ### どうなったら宿題が完了と言えるのか
