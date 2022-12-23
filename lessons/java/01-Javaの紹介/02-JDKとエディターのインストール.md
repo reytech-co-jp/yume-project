@@ -5,7 +5,6 @@ JDKとエディタのインストールについてのガイドです。
 
 - JDKインストール
 - エディタインストール
-- エディタの設定
 
 ## JDKインストール
 
@@ -30,10 +29,8 @@ javac 11.0.2
 ### インストール方法
 
 JDKのインストールはOSによって違うから自分のOSによるリンクをクリックし、参考にしてやってみてください。   
-JDKをインストールときはバージョン11をインストールしてください。   
+JDKをインストールときは最新のバージョンをインストールしてください。   
 Windowの場合は環境設定もする必要がありますから、注意してやってみてください。
-- Linuxにインストール
-  - https://opensource.com/article/19/11/install-java-linux
 - Macにインストール
   - https://phoenixnap.com/kb/install-java-macos
 - Windowにインストール
@@ -52,33 +49,6 @@ javac 11.0.2
 この夢プロジェクトではIntellijを使っていきます。
 IntellijのインストールもOSによって少し違うのでこちらのサイトを参考にしつつ自分でやってみてください。   
 参考リンク： https://www.jetbrains.com/help/idea/installation-guide.html
-
-## エディタの設定
-
-インストールが終わったら、エディタに以下のものを設定しましょう。
-- コードが自動でフォーマットされることと自動でimportの整理（optimize imports）をする
-- ワイルドカードimportを禁止する
-- ファイルの最終行に改行を入れる
-
-### コードが自動でフォーマットされることと自動でimportの整理（optimize imports）をする
-
-https://www.jetbrains.com/help/idea/reformat-and-rearrange-code.html#reformat-on-save
-
-https://www.jetbrains.com/help/idea/creating-and-optimizing-imports.html#optimize-on-save
-
-<img width="400" alt="スクリーンショット 2022-10-08 10 57 24" src="https://user-images.githubusercontent.com/62045457/194682346-ff16fbe3-af9a-4ed1-aefd-9e41134967ec.png">
-
-<img width="400" alt="スクリーンショット 2022-10-08 10 58 13" src="https://user-images.githubusercontent.com/62045457/194682363-5baf507e-e6ba-454a-975b-69ab950047b2.png">
-
-### ワイルドカードimportを禁止する
-
-https://www.jetbrains.com/help/idea/creating-and-optimizing-imports.html#disable-wildcard-imports
-https://www.jetbrains.com/help/idea/creating-and-optimizing-imports.html#disable-wildcards-for-class
-
-### ファイルの最終行に改行を入れる
-
-https://stackoverflow.com/questions/16761227/how-to-make-intellij-idea-insert-a-new-line-at-every-end-of-file
-<img width="400" alt="スクリーンショット 2022-10-08 11 00 25" src="https://user-images.githubusercontent.com/62045457/194682440-2e0a01aa-a102-4e1c-b8ae-202251e38cb0.png">
 
 # お願い
 
