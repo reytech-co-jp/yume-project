@@ -32,6 +32,8 @@ public class Main {
 
 この課題では、`"learning java is fun"`文字列に含まれる空白を数える`do-while`コードを記載してください。
 
+出力は下記のようになります。
+
 出力：
 
 ```java
@@ -49,6 +51,8 @@ String.charAt()について参考リンク: <https://www.w3schools.com/jsref/jsr
 この課題では、`"learning java is fun"`文字列に含まれる文字数を数える`do-while`コードを記載してください。  
 文字数を数える時に空白を数えないように開発してほしいです。　　
 
+出力は下記のようになります。
+
 出力：
 
 ```java
@@ -61,6 +65,8 @@ String.charAt()について参考リンク: <https://www.w3schools.com/jsref/jsr
 
 "Learning Java is fun"文字列内の単語数を数える`do-while`コードを追加してください。
 
+出力は下記のようになります。
+
 出力：
 
 ```java
@@ -72,6 +78,8 @@ String.charAt()について参考リンク: <https://www.w3schools.com/jsref/jsr
 # 課題4
 
 "Learning Java is fun"文字列内の各単語を表示する`do-while`コードを追加してください。
+
+出力は下記のようになります。
 
 出力：
 
@@ -87,6 +95,8 @@ String.split()について参考リンク: <https://www.w3schools.com/jsref/jsre
 
 # 課題5
 "Learning Java is fun"文字列の各単語を大文字にする`do-while`コードを追加してください。
+
+出力は下記のようになります。
 
 出力：
 
