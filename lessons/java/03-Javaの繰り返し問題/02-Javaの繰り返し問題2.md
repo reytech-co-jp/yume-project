@@ -58,7 +58,7 @@ public class Main {
 
   public static void main(String[] args) {
     int count = 0;
-    int digit = 542981;
+    long digit = 542981;
   }
 
 }
