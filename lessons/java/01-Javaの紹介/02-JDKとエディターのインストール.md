@@ -23,7 +23,7 @@ opreable program or batch file.
 もし以下のようにバージョンが表示された方はエディタのインストールをお願いします。      
 ```bash
 $ javac -version
-javac 11.0.2
+javac 19.0.1
 ```
 
 ### インストール方法
@@ -40,7 +40,7 @@ Windowの場合は環境設定もする必要がありますから、注意し�
 以下のようにバージョンが表示されればOKです。
 ```bash
 $ javac -version
-javac 11.0.2
+javac 19.0.1
 ```
 
 ## エディタインストール
