@@ -2,8 +2,8 @@
 Javaの繰り返し処理についてまず`for`の課題をやってみましょう。
 
 # for文の使い方
-for文の使い方についてはこちらのリンクを参考にしてください。  
-for文の使い方の参考リンク:
+for文の使い方についてはこちらのリンクを参考にしてください。    
+for文の使い方の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#for
 
 # お願い
 
@@ -155,8 +155,8 @@ public class Main {
 1*9= 9  2*9=18  3*9=27  4*9=36  5*9=45  6*9=54  7*9=63  8*9=72  9*9=81  
 
 ```
-こちら九九表を作成するためネストしたforループを使います。
-こちらで使うネストされたforループはこちらのサイトを参考にしてください。
+こちら九九表を作成するためネストしたforループを使います。  
+こちらで使うネストされたforループはこちらのサイトを参考にしてください。  
 論理演算子の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E3%83%8D%E3%82%B9%E3%83%88%E3%81%97%E3%81%9Ffor%E3%83%AB%E3%83%BC%E3%83%97
 
 # 宿題
