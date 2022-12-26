@@ -6,7 +6,7 @@ Javaの繰り返し処理について次のdo-whileの課題をやってみま�
 
 do-while文の使い方についてはこちらのリンクを参考にしてください。  
 
-do-while文の使い方の参考リンク:https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#dowhile%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
+do-while文の使い方の参考リンク：https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#dowhile%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
 
 # お願い
 
@@ -14,7 +14,7 @@ do-while文の使い方の参考リンク:https://github.com/reytech-co-jp/yume-
 
 # 準備
 
-`Main.java`に`String`形変数`string`、`int`形変数`i`と`count`を宣言して`string`に"Learning java is fun"、`i`と`count`に0を代入してください。
+`Main.java`に`String`形変数`string`、`int`形変数`i`と`count`と`whiteSpaceCount`を宣言して`string`に"Learning java is fun"、`i`と`count`と`whiteSpaceCount`に0を代入してください。
 ```java
 public class Main {
 
