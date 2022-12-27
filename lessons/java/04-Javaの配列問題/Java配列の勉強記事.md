@@ -92,7 +92,7 @@ for (int i = 0; i < fruits.length; i++) {
 String fruits[] = {"ブドウ", "リンゴ", "バナナ","イチゴ"};
 System.out.print("【各果物を表示する】");
 for (String fruit: fruits) {
-  System.out.println(fruit);
+  System.out.print(fruits[i] + ", ");
 }
 ```
 
@@ -100,10 +100,7 @@ for (String fruit: fruits) {
 
 ```java
 【各果物を表示する】
-ブドウ 
-リンゴ
-バナナ
-イチゴ
+ブドウ, リンゴ, バナナ, イチゴ
 ```
 
 上記のコードで使う`length`メソッドは要素数を取得したいときに使います。  
