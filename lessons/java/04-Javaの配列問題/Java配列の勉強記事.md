@@ -16,6 +16,10 @@
 ```java
 型名[] 配列変数名;
 ```
+or
+```java
+型名 配列変数名[];
+```
 
 例えば`String`型の値を扱う配列であれば次のように宣言します。
 
@@ -24,6 +28,10 @@
 ```java
 String[] fruits;
 ```
+or
+```java
+String fruits[];
+```
 
 ## 配列の作成
 
@@ -31,6 +39,10 @@ String[] fruits;
 
 書き方：
 
+```java
+型名[] 配列変数名 = new 型名[要素数];
+```
+or
 ```java
 型名 配列変数名[] = new 型名[要素数];
 ```
@@ -41,6 +53,10 @@ String[] fruits;
 
 ```java
 String[] fruits = new String[4];
+```
+or
+```java
+String fruits[] = new String[4];
 ```
 
 ## 配列の各要素への値の代入
@@ -67,7 +83,7 @@ fruits[3] = "イチゴ";
 書き方：
 
 ```java
-String fruits[] = {"ブドウ", "リンゴ", "バナナ","イチゴ"};
+String[] fruits = {"ブドウ", "リンゴ", "バナナ","イチゴ"};
 ```
 
 ## 配列の出力
@@ -80,9 +96,9 @@ String fruits[] = {"ブドウ", "リンゴ", "バナナ","イチゴ"};
 
 ```java
 String fruits[] = {"ブドウ", "リンゴ", "バナナ","イチゴ"};
-System.out.print("【各果物を表示する】");
+System.out.println("【各果物を表示する】");
 for (int i = 0; i < fruits.length; i++) {
-   System.out.print(fruits[i] + ", ");
+   System.out.println(fruits[i]);
   }
 ```
 
@@ -90,9 +106,9 @@ for (int i = 0; i < fruits.length; i++) {
 
 ```java
 String fruits[] = {"ブドウ", "リンゴ", "バナナ","イチゴ"};
-System.out.print("【各果物を表示する】");
+System.out.println("【各果物を表示する】");
 for (String fruit: fruits) {
-  System.out.print(fruits[i] + ", ");
+  System.out.println(fruits[i]);
 }
 ```
 
@@ -100,7 +116,10 @@ for (String fruit: fruits) {
 
 ```java
 【各果物を表示する】
-ブドウ, リンゴ, バナナ, イチゴ
+ブドウ
+リンゴ
+バナナ
+イチゴ
 ```
 
 上記のコードで使う`length`メソッドは要素数を取得したいときに使います。  
