@@ -283,7 +283,9 @@ System.out.println("【2次元配列`mark`の各データを表示する】");
 mark[0][0] = 97
 mark[0][1] = 98
 mark[0][2] = 95
+mark[0][2] = 100
 mark[1][0] = 74
 mark[1][1] = 72
 mark[1][2] = 30
+mark[1][3] = 66
  ```
