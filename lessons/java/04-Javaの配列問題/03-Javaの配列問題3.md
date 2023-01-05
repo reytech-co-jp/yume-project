@@ -112,7 +112,7 @@ public class Main {
 【vowelsを並べ替えて表示する】
 a,e,i,o,u
 ```
-配列を並べ替える方法: https://programmer-life.work/java/arrays-sort
+配列を並べ替える方法: https://programmer-life.work/java/arrays-sort   
 String型の配列を指定した場合のjoinメソッドの使用方法: https://www.sejuku.net/blog/19307
 
 # 宿題
