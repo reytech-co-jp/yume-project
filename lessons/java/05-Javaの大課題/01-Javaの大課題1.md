@@ -23,7 +23,7 @@
 GitHubの自分のアカウントでリポジトリを作成してください。
 リポジトリの名前は「rock-paper-scissors-project」にしてください。
 
-README.mdには下記を記載してください。
+`README.md`には下記を記載してください。
 
 ```java
 # このプロジェクトについて
