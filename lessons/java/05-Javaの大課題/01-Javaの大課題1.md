@@ -30,6 +30,23 @@ GitHubの自分のアカウントでリポジトリを作成してください�
 
 じゃんけんゲームのプログラムを管理します。
 ```
+`src/Main.java`には下記を記載してください。
+
+```java
+public class Main {
+
+  public static void main(String[] args) {
+    System.out.println("Hello World");
+  }
+
+}
+```
+ソースコードを自動でフォーマットするために以下を設定しましょう。
+Save ActionsというPluginをいれるとよいです。
+
+<img width="993" alt="179350417-d076580b-9841-42f9-bac8-3a7ace7a08e9" src="https://user-images.githubusercontent.com/120652222/211270111-decd5bef-0b27-4c42-a7d5-7ae25c1e9f44.png">
+
+<img width="1004" alt="179350423-f3ca3c33-c3fa-4d3c-9b2c-18fcd86247ae" src="https://user-images.githubusercontent.com/120652222/211270145-13bca608-4a81-4277-88b3-dc8618a48905.png">
 
 ここまでできたら自分のリポジトリにプロジェクトをpushしてください。
 
