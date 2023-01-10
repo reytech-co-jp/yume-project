@@ -150,7 +150,7 @@ for (String fruit: fruits) {
 上記のコードで使う`length`メソッドは要素数を取得したいときに使います。  
 上記のコードでの配列`fruits`の要素数は4です。  
 
-こちらで使う繰り返し処理はこちらのサイトを参考にしてください。
+こちらで使う繰り返し処理はこちらのサイトを参考にしてください。  
 繰り返し処理`for`の参考リンク：<https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9>  
 
 繰り返し処理`for-each`の参考リンク：<https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#for-each%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9>
