@@ -36,17 +36,17 @@ i = 9
 i = 10
 ```
 # 課題1
-1から10までの数字を昇順で出力するときにiは5である場合、スキップしてiは3ではない場合は処理を続けてください。
+1から10までの数字を昇順で出力するときにiは5である場合スキップして、iは5ではない場合は処理を続けてください。
 
 出力は下記のようになります。
 
 出力：
 ```java
-【1から10までの数字を昇順で表示する】
+【5を除く1から10までの数字を昇順で表示する】
 i = 1
 i = 2
+i = 3
 i = 4
-i = 5
 i = 6
 i = 7
 i = 8
@@ -54,7 +54,7 @@ i = 9
 i = 10
 ```
 こちらのコードを開発するため`continue`という文を使用します。
-`continue`の参考リンク：https://www.w3schools.com/js/js_break.asp
+`continue`の参考リンク：https://www.w3schools.com/java/java_break.asp
 
 # 課題2
 `Main.java`に下記のように1から10までの数字を降順で出力するfor文を記載してください。
@@ -176,8 +176,8 @@ public class Main {
 
 ```
 こちら九九表を作成するためネストした`for`ループを使います。  
-こちらで使うネストされた`for`ループはこちらのサイトを参考にしてください。  
-ネストされた`for`ループの参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E3%83%8D%E3%82%B9%E3%83%88%E3%81%97%E3%81%9Ffor%E3%83%AB%E3%83%BC%E3%83%97  
+こちらで使うネストした`for`ループはこちらのサイトを参考にしてください。  
+ネストした`for`ループの参考リンク: [ネストしたforループの勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E3%83%8D%E3%82%B9%E3%83%88%E3%81%97%E3%81%9Ffor%E3%83%AB%E3%83%BC%E3%83%97) 
 
 出力するときにフォーマット指定子(printf)を使ってください。  
 フォーマット指定子の参考リンク：https://www.geeksforgeeks.org/format-specifiers-in-java/
