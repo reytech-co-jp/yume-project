@@ -180,7 +180,7 @@ public class Main {
 ネストした`for`ループの参考リンク: [ネストしたforループの勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E3%83%8D%E3%82%B9%E3%83%88%E3%81%97%E3%81%9Ffor%E3%83%AB%E3%83%BC%E3%83%97) 
 
 出力するときにフォーマット指定子(printf)を使ってください。  
-フォーマット指定子の参考リンク：https://www.geeksforgeeks.org/format-specifiers-in-java/
+フォーマット指定子の参考リンク：[Format Specifiers in Java](https://www.geeksforgeeks.org/format-specifiers-in-java/)
 
 # 宿題
 ※この宿題はSlackに提出しなくても大丈夫です。
