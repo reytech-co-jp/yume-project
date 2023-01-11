@@ -59,7 +59,7 @@ Save ActionsというPluginをいれるとよいです。
 
 `feature/add-variables`ブランチを作成してください。
 
-`Main.java`にに下記のようにScannerクラスとRandomクラスを作成してください。次は`int`形配列`hands`、`int`形変数`playerMove`と`replay`を作成してください。  
+`Main.java`にに下記のようにScannerクラスとRandomクラスを作成してください。次は`int`形配列`hands`、`int`形変数`playerMove`と`computerMove`と`replay`を作成してください。  
 
 `String`形変数`playerName`を作成して`playerName`に入力した値を代入してください。
 
@@ -75,6 +75,7 @@ public class Main
         Random rand = new Random();
         String[] hands = {"グー", "チョキ", "パー"};
         int playerMove;
+	int computerMove;
         int retry;
         System.out.println("【じゃんけんゲームへようこそ！グーの場合は0、チョキの場合は1、パーの場合は2を選択してください。】");
         System.out.println("まずはご自身の名前を入力してください。");
@@ -109,7 +110,7 @@ Pull Requestをマージしたら自動でリモートのブランチを削除�
 # 課題2
 自分のリポジトリに`feature/play-janken`という名前のブランチを作成してください。
 
-プレイヤーの名前をキーボードから入力できるコードを記載してください。そしてコンピューター側の手をランダムに選び、 選択もの「(0)グー、(1)チョキ、(2)パー 」を表示してプレイヤーからこの3つから選ぶ入力を促すコードを記載てください。0、1、2以外の数字が選ばれたらもう一度再入力させます。  
+プレイヤーの名前をキーボードから入力できるコードを記載してください。そしてコンピューター側の手をランダムに選び、選んだ値を`computerMove`に代入し、 選択もの「(0)グー、(1)チョキ、(2)パー 」を表示してプレイヤーからこの3つから選ぶ入力を`playerMove`に代入するコードを記載てください。0、1、2以外の数字が選ばれたらもう一度再入力させます。  
 
 コンピューターがランダムに選んだ結果とユーザーが入力した結果を表示してください。
 
