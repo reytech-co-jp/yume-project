@@ -48,7 +48,7 @@ public class Main {
 
 # 課題２
 
-`word`にある文字列はvowelなら`Vowel`と表示し、vowelではない場合は`Consonant`かというメッセージを表示してください。   
+`word`にある文字列はvowelなら`Vowel`と表示し、vowelではない場合は`Consonant`というメッセージを表示してください。   
 vowel文字は`a,e,i,o,u`から始めます。   
 今の`word`にある文字列なら出力の文書は下記のようになります。
 ```java
@@ -63,7 +63,7 @@ Stringメソッドの参考リンク: https://java-code.jp/185
 ```java
 Consonant
 ```
-defaultの参考リンク: https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#default%E3%83%A9%E3%83%99%E3%83%AB%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B 
+defaultの参考リンク: [defaultの使い方](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#default%E3%83%A9%E3%83%99%E3%83%AB%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B)
 
 # 課題４ + α
 
