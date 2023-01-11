@@ -54,7 +54,7 @@ i = 9
 i = 10
 ```
 こちらのコードを開発するため`continue`という文を使用します。  
-`continue`の参考リンク：https://www.w3schools.com/java/java_break.asp
+`continue`の参考リンク：[Java Break and Continue](https://www.w3schools.com/java/java_break.asp)
 
 # 課題2
 `Main.java`に下記のように1から10までの数字を降順で出力するfor文を記載してください。
