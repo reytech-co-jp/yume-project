@@ -66,7 +66,12 @@ Save ActionsというPluginをいれるとよいです。
 コードは以下のようになります。  
 
 ```java
-        Scanner scanner = new Scanner(System.in);
+import java.util.Scanner;
+import java.util.Random;
+public class Main
+{
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
         Random rand = new Random();
         String[] hands = {"グー", "チョキ", "パー"};
         int playerMove;
@@ -75,6 +80,8 @@ Save ActionsというPluginをいれるとよいです。
         System.out.println("まずはご自身の名前を入力してください。");
         String playerName = scanner.nextLine();
         System.out.println("じゃ"+playerName+"さん今ゲームを始めます！");
+	}
+}
 ```
 
 出力は以下の通りになります。
