@@ -53,7 +53,7 @@ i = 8
 i = 9
 i = 10
 ```
-こちらのコードを開発するため`continue`という文を使用します。
+こちらのコードを開発するため`continue`という文を使用します。  
 `continue`の参考リンク：https://www.w3schools.com/java/java_break.asp
 
 # 課題2
