@@ -133,7 +133,7 @@ for (int i = 0; i < fruits.length; i++) {
 String fruits[] = {"ブドウ", "リンゴ", "バナナ","イチゴ"};
 System.out.println("【各果物を表示する】");
 for (String fruit: fruits) {
-  System.out.println(fruits[i]);
+  System.out.println(fruit);
 }
 ```
 
