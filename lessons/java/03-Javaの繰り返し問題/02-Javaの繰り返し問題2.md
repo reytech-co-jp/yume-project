@@ -3,7 +3,7 @@ Javaの繰り返し処理について次のwhileの課題をやってみまし�
 
 # while文の使い方
 while文の使い方についてはこちらのリンクを参考にしてください。  
-while文の使い方の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#while%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
+while文の使い方の参考リンク: [while文の勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#while%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9)
 
 # 準備
 
@@ -57,7 +57,7 @@ public class Main {
 50
 ```
 こちらのコードを作成するためbreak文を使用してください。  
-break文の参考リンク：https://www.w3schools.com/js/js_break.asp
+break文の参考リンク：[break文の使い方](https://www.javadrive.jp/start/for/index9.html)
 
 # 課題3
 10から100までの数字を10づつ加算して合計を計算するコードを追加してください。  
@@ -161,7 +161,7 @@ z
 ```
 こちらのコードを作成するためASCII 文字を使います。  
 ASCII 文字について知らない方はこちらのリンクを参考にして読んでみてください。  
-参考リンク: https://www.w3schools.com/charsets/ref_html_ascii.asp
+ASCII文字の参考リンク: [ASCII文字の使い方](https://java-reference.com/java_info_ascii.html)
 # 宿題
 
 ※この宿題はSlackに提出しなくても大丈夫です。
