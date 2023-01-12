@@ -5,7 +5,11 @@ Javaの条件についてまず`if-else`の課題をやってみましょう。
 # if-else文の使い方
 
 `if-else`文の使い方についてはこちらのリンクを参考にしてください。  
-`if-else`文の使い方の参考リンク: <https://github.com/reytech-co-jp/yume-project/blob/feature/if_statement_questions/lessons/java/sources/01.Java%E6%9D%A1%E4%BB%B6%E6%96%87.md#if%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9>
+`if-else`文の使い方の参考リンク: [if-else文の勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#ifelse)
+
+# お願い
+
+こちらの課題は課題ごとに新しいプロジェクトを作成しないで一つの`Main.java`にいろいろ試してみてください。
 
 # 準備
 
@@ -121,8 +125,7 @@ public class Main {
 # 課題5
 
 `email`がadmin@gmail.comと`password`が12345である場合、`【ログインが成功しました！】`というメッセージを表示してください。  
-
-`email`がadmin@gmail.comと`password`が12345ではなに場合は、`【メールアドレスまたはパスワードが正しくありません！】`と表示するコードを追加してください。  
+`email`がadmin@gmail.comと`password`が12345ではない場合は、`【メールアドレスまたはパスワードが正しくありません！】`と表示するコードを追加してください。  
 
 出力は次の通りになります。  
 
@@ -145,7 +148,7 @@ public class Main {
 
   public static void main(String[] args) {
     Date date = new Date();
-    int hour = date.getHour();
+    int hour = date.getHours();
   }
 
 }
@@ -153,15 +156,12 @@ public class Main {
 
 # 課題6
 
-今の時間は1時から12時の間にある場合は、`【おはようございます！今は{hour}時間です。】`と表示、  
-今の時間は12時から16時の間にある場合は、`【こんにちは！今は{hour}時間です。】`と表示、  
-今の時間は16時から21時の間にある場合は、`【こんばんは！今は{hour}時間です。】`と表示、  
-今の時間は21時以降である場合は、`【おやすみなさい！今は{hour}時間です。】`と表示するコードを追加してください！  
+今の時間は12未満である場合は、`【午前{hour}時間です。】`と表示、今の時間は12未満ではない場合は、`【午後{hour}時間です。】`と表示するコードを追加してください！  
 
-今は午前6時間なら出力は以下の通りになります。  
+今は午前11時間なら出力は以下の通りになります。  
 
 出力：
 
 ```java
-【おはようございます！今は6時間です。】
+【午後11時間です。】
 ```
