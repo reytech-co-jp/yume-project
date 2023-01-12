@@ -1,5 +1,5 @@
 # forの課題
-Javaの繰り返し処理についてまず`for`の課題をやってみましょう。
+まず、Javaの繰り返し処理についてforの課題をやってみましょう。
 
 # for文の使い方
 for文の使い方についてはこちらのリンクを参考にしてください。    
@@ -54,7 +54,7 @@ i = 9
 i = 10
 ```
 こちらのコードを開発するため`continue`という文を使用します。  
-`continue`の参考リンク：[Java Break and Continue](https://www.w3schools.com/java/java_break.asp)
+`continue`の参考リンク：[continue文の使い方](https://www.sejuku.net/blog/20200)
 
 # 課題2
 `Main.java`に下記のように1から10までの数字を降順で出力するfor文を記載してください。
@@ -79,9 +79,9 @@ i = 1
 # 課題3
 1から10までの数字から偶数という2で割り切れる数を表示するコードを追加してください。
 
-こちらで使う算術演算子を分からない場合は、こちらのサイトを参考にしてください。
+こちらで使う算術演算子と比較演算子を分からない場合は、こちらのサイトを参考にしてください。
 
-算術演算子の参考リンク: [Java Logical Operators](https://www.w3schools.com/java/java_operators.asp)
+演算子の参考リンク: [演算子の使い方](https://www.sejuku.net/blog/13030)
 
 出力は下記のようになります。
 
@@ -137,7 +137,7 @@ public class Main {
 }
 ```
 # 課題6
-`multiplier`1から12までの数値を変数`multiplicand`で掛けて次の出力通りに表示するコードを記載してください。  
+`multiplier`1から12までの数値を変数`multiplicand`で掛けて次の出力の通りに表示するコードを記載してください。  
 出力は下記のようになります。
 
 出力：
@@ -180,7 +180,7 @@ public class Main {
 ネストした`for`ループの参考リンク: [ネストしたforループの勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/loop_statment_questions/lessons/java/03-Java%E3%81%AE%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E5%95%8F%E9%A1%8C/Java%E7%B9%B0%E3%82%8A%E8%BF%94%E3%81%97%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E3%83%8D%E3%82%B9%E3%83%88%E3%81%97%E3%81%9Ffor%E3%83%AB%E3%83%BC%E3%83%97) 
 
 出力するときにフォーマット指定子(printf)を使ってください。  
-フォーマット指定子の参考リンク：[Format Specifiers in Java](https://www.geeksforgeeks.org/format-specifiers-in-java/)
+フォーマット指定子の参考リンク：[フォーマット指定子の使い方](https://www.sejuku.net/blog/43246)
 
 # 宿題
 ※この宿題はSlackに提出しなくても大丈夫です。
