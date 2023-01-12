@@ -41,7 +41,8 @@ public class Main {
 
 文字列の空白の数：3空白
 ```
-ここで使う`String`クラスの「length()」と「charAt()」メソッドを知らない方はこちらのサイトを参考にしてください。  
+ここでは文字列の長さを取得する`String`クラスの「length()」と文字列から指定したインデックスの文字を取得する`String`クラスの「charAt()」メソッドを使用します。これらについて知らない方はこちらのサイトを参考にしてください。  
+
 length()メソッドの参考リンク: [length()メソッドの使い方](https://www.sejuku.net/blog/19392)  
 
 charAt()メソッドの参考リンク: [charAt()メソッドの使い方](https://www.javadrive.jp/start/string/index5.html)
@@ -91,7 +92,7 @@ java
 is
 fun
 ```
-ここでは`String`クラスの「split()」メソッドを使用しますのでこのメソッドについて知らない方はこちらのサイトを参考にしてください。  
+ここでは文字列を分割する`String`クラスの「split()」メソッドを使用しますのでこのメソッドについて知らない方はこちらのサイトを参考にしてください。  
 split()メソッドの参考リンク: [split()メソッドの使い方](https://www.sejuku.net/blog/14487)
 
 # 課題5
@@ -105,7 +106,8 @@ split()メソッドの参考リンク: [split()メソッドの使い方](https:/
 【"learning java is fun"文字列の各単語を大文字にする】
 Learning Java Is Fun
 ```
-この課題では単語を大文字にする`String`クラスの「toUpperCase()」メソッドと文字列を切り出し抽出する`String`クラスの「substring()」メソッドを使用しますのでこれらについて知らない方はこちらのサイトを参考にしてください。  
+ここでは文字列を分割する`String`クラスの「split()」メソッドと単語を大文字にする`String`クラスの「toUpperCase()」メソッドと文字列を切り出し抽出する`String`クラスの「substring()」メソッドを使用しますのでこれらについて知らない方はこちらのサイトを参考にしてください。  
+split()メソッドの参考リンク: [split()メソッドの使い方](https://www.sejuku.net/blog/14487)
 toUpperCase()の参考リンク: [toUpperCase()の使い方][https://www.sejuku.net/blog/50886]  
 substring()の参考リンク: [substring()の使い方](https://www.sejuku.net/blog/14503)
 
