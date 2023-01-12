@@ -160,7 +160,7 @@ y
 z
 ```
 こちらのコードを作成するためASCII 文字を使います。  
-ASCII 文字について知らない方はこちらのリンクを参考にして読んでみてください。  
+ASCII文字について知らない方はこちらのリンクを参考にして読んでみてください。  
 ASCII文字の参考リンク: [ASCII文字の使い方](https://miki-prosho.com/?p=1159#:~:text=ASCII%E3%81%A8%E3%81%AF%E8%8B%B1%E8%AA%9E%E3%81%AE,%E5%A4%89%E6%95%B0%E3%81%AE%E5%9E%8B%E3%82%92%E4%BD%BF%E7%94%A8%E3%80%82)  
 ASCII文字の一覧のリンク：[ASCII文字の一覧](https://java-reference.com/java_info_ascii.html)
 # 宿題
