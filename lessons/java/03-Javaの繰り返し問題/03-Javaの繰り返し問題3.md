@@ -108,7 +108,9 @@ Learning Java Is Fun
 ```
 ここでは文字列を分割する`String`クラスの「split()」メソッドと単語を大文字にする`String`クラスの「toUpperCase()」メソッドと文字列を切り出し抽出する`String`クラスの「substring()」メソッドを使用しますのでこれらについて知らない方はこちらのサイトを参考にしてください。  
 split()メソッドの参考リンク: [split()メソッドの使い方](https://www.sejuku.net/blog/14487)  
+
 toUpperCase()の参考リンク: [toUpperCase()の使い方](https://www.sejuku.net/blog/50886)  
+
 substring()の参考リンク: [substring()の使い方](https://www.sejuku.net/blog/14503)  
 
 # 宿題
