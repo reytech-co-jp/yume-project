@@ -59,7 +59,7 @@ Save ActionsというPluginをいれるとよいです。
 
 `feature/add-variables`ブランチを作成してください。
 
-`Main.java`にに下記のようにScannerクラスとRandomクラスを作成してください。次は`int`形配列`hands`、`int`形変数`playerMove`と`computerMove`と`replay`を作成してください。  
+`Main.java`に下記のようにScannerクラスとRandomクラスを作成してください。次は`int`形配列`hands`、`int`形変数`playerMove`と`computerMove`と`replay`を作成してください。  
 
 `String`形変数`playerName`を作成して`playerName`に入力した値を代入してください。
 
