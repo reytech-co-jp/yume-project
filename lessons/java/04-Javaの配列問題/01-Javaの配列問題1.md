@@ -5,7 +5,7 @@ Javaの配列の課題をやってみましょう。
 # 配列について
 
 配列についてはこちらのリンクを参考にしてください。   
-配列の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#java%E9%85%8D%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+配列の参考リンク: [配列について勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#java%E9%85%8D%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 
 # お願い
 
@@ -77,8 +77,7 @@ public class Main {
 ```java
 numArrayにある値の加算値: 97
 ```
-配列のデータを取得する方法は以下のリンクを参考してください。   
-https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E9%85%8D%E5%88%97%E3%81%AE%E5%87%BA%E5%8A%9B
+配列のデータを取得する方法の参考リンク: [配列のデータを取得する方法](https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E9%85%8D%E5%88%97%E3%81%AE%E5%87%BA%E5%8A%9B)
 
 # 課題４+ α 
 
@@ -123,8 +122,7 @@ copyNameArray【1】のデータ: William
 copyNameArray【2】のデータ: Bob
 copyNameArray【3】のデータ: Stark
 ```
-配列にあるデータを取得する方法については以下のリンクを参考してください。   
-https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E9%85%8D%E5%88%97%E3%81%AE%E5%87%BA%E5%8A%9B
+配列にあるデータを取得する方法の参考リンク: [配列のデータを取得する方法](https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E9%85%8D%E5%88%97%E3%81%AE%E5%87%BA%E5%8A%9B)
 
 # 宿題
 

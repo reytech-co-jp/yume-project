@@ -5,7 +5,7 @@ Javaの配列の課題をやってみましょう。
 # 配列について
 
 配列についてはこちらのリンクを参考にしてください。   
-配列の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#java%E9%85%8D%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6
+配列の参考リンク: [配列について勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#java%E9%85%8D%E5%88%97%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
 
 # お願い
 
@@ -89,7 +89,7 @@ ARRAY
 【textArrayの長さは4以上です】
 This is array test
 ```
-配列を連結する方法: https://www.sejuku.net/blog/19307
+文字列を連結する方法: https://www.sejuku.net/blog/19307
 
 # 課題５+ α 
 
@@ -112,7 +112,7 @@ public class Main {
 【vowelsを並べ替えて表示する】
 a,e,i,o,u
 ```
-配列を並べ替える方法: https://programmer-life.work/java/arrays-sort   
+配列を並べ替える方法: https://programmer-life.work/java/arrays-sort
 String型の配列を指定した場合のjoinメソッドの使用方法: https://www.sejuku.net/blog/19307
 
 # 宿題
