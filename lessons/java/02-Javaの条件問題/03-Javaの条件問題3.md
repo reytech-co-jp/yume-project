@@ -140,7 +140,7 @@ public class Main {
 `Main.java`に下記のように次の変数`date`という`Date`型変数とint形`hour`という変数を宣言してください。  
 `Date`型のフォーマットは、日付をわかりやすく表示するために用意されています。  
 `Date`形についの詳細を知りたい方はこちらのリンクを参考にしてください。  
-`Date`型のフォーマットの使い方の参考リンク: <https://www.w3schools.com/java/java_date.asp>
+`Date`型のフォーマットの使い方の参考リンク: [Date形の使い方](https://www.sejuku.net/blog/21098)
 
 ```java
 import java.util.Date;
