@@ -19,7 +19,7 @@ Javaの条件についてまず`if-else`の課題をやってみましょう。
 public class Main {
 
   public static void main(String[] args) {
-    int num = 6;
+    int num1 = -6;
   }
 
 }
@@ -39,7 +39,7 @@ public class Main {
 
 # 課題2+ α
 
-`Main.java`に下記のようにint形の変数`num1`, `num2`という変数を宣言してください。  
+`Main.java`に下記のようにint形の変数`num2`という変数を宣言してください。  
 
 ```java
 public class Main {
