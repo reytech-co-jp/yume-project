@@ -45,11 +45,8 @@ public class Main {
 public class Main {
 
   public static void main(String[] args) {
-    int num1 = 6;
+    int num1 = -6;
     int num2 = 2;
-    int num3 = 4;
-    int smallest;
-    int largest;
   }
 
 }
@@ -57,26 +54,26 @@ public class Main {
 
 # 課題2
 
-`if-else`文を使用してこちらの3つの変数中で最小値を見つけて`smallest`変数に最小値を代入してください。
+`if-else`文を使用して変数``num1`が`num2`より大きい場合は`【変数num1が変数num2より大きいです。】`と表示、`num2`が`num1`より大きい場合は`【変数num2が変数num1より大きいです。】`と表示するコードを記載してください。。
 
 出力は以下の通りになります。
 
 出力：
 
 ```java
-【6,2,4の中で最小値は2です。】
+【変数num2が変数num1より大きいです。】
 ```
 
 # 課題3
 
-`if-else`文を使用してこちらの3つの変数中で最大値を見つけて`largest`変数に最大値を代入してください。
+`if-else`を使用して変数`num1`が0未満である場合、`【変数num1が負数です。】`と表示、変数`num1`が0以上である場合は、`【変数num1が負数です。】`と表示するコードを記載してください。
 
 出力は以下の通りになります。
 
 出力：
 
 ```java
-【6,2,4の中で最大値は6です。】
+【変数num1が負数です。】
 ```
 
 # 課題4+ α
