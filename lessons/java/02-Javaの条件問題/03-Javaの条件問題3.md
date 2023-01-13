@@ -39,7 +39,7 @@ public class Main {
 
 # 課題2+ α
 
-`Main.java`に下記のようにint形の変数`num2`, `num3`, `smallest`と`largest`という変数を宣言してください。  
+`Main.java`に下記のようにint形の変数`num1`, `num2`という変数を宣言してください。  
 
 ```java
 public class Main {
@@ -64,16 +64,32 @@ public class Main {
 【変数num2が変数num1より大きいです。】
 ```
 
+# 課題3+ α
+
+`Main.java`に下記のようにint形の変数`length`, `width`という変数を宣言してください。  
+
+```java
+public class Main {
+
+  public static void main(String[] args) {
+    int length = 16;
+    int width = 16;
+  }
+
+}
+```
+
+
 # 課題3
 
-`if-else`を使用して変数`num1`が0未満である場合、`【変数num1が負数です。】`と表示、変数`num1`が0以上である場合は、`【変数num1が負数です。】`と表示するコードを記載してください。
+`if-else`を使用して変数`length`と変更`width`が等しい場合は、`【形は四角です。】と表示、等しくない場合は`【形は長方形です。】`と表示するコードを記載してください。
 
 出力は以下の通りになります。
 
 出力：
 
 ```java
-【変数num1が負数です。】
+【形は四角です。】
 ```
 
 # 課題4+ α
