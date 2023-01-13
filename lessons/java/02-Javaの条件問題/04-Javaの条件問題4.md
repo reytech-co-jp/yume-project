@@ -48,7 +48,7 @@ public class Main {
 
 # 課題２
 
-`word`にある文字列はvowelなら`Vowel`と表示し、vowelではない場合は`Consonant`というメッセージを表示してください。   
+`word`にある文字列が母音から始まるなら`Vowel`と表示し、子音から始まる場合は`Consonant`というメッセージを表示してください。   
 vowel文字は`a,e,i,o,u`から始めます。   
 今の`word`にある文字列なら出力の文書は下記のようになります。
 ```java
@@ -58,7 +58,7 @@ Stringメソッドの参考リンク: https://java-code.jp/185
 
 # 課題３
 
-`word`にある文字列を自分が好きなvowelではない文字列に変更してください。例えば、"pineapple"、"stawberry"。。。   
+`word`にある文字列を子音から始まるに変更してください。例えば、"pineapple"、"stawberry"などです。   
 出力は下記のようになります。
 ```java
 Consonant
