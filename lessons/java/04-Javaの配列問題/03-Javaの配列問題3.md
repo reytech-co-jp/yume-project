@@ -18,7 +18,7 @@ Javaの配列の課題をやってみましょう。
 public class Main {
 
   public static void main(String[] args) {
-      String text = "This is array test";
+      String text = "This is an array test";
   }
 
 }
@@ -32,7 +32,7 @@ public class Main {
 public class Main {
 
   public static void main(String[] args) {
-      String text = "This is array test";
+      String text = "This is an array test";
       String[] textArray = ....
   }
 
@@ -46,6 +46,7 @@ public class Main {
 【textArrayのデータ】
 This
 is
+an
 array
 test
 ```
@@ -56,7 +57,7 @@ test
 出力は以下のようになります。
 ```java
 【'i'がない文字列】
-ARRAY TEST
+AN ARRAY TEST
 ```
 contains()のメソッドについて参考リンク: https://www.sejuku.net/blog/19257   
 System.out.print()メソッドについて参考リンク: https://uxmilk.jp/48801   
@@ -64,7 +65,7 @@ System.out.print()メソッドについて参考リンク: https://uxmilk.jp/488
 
 # 課題３ 
 
-`textArray`に格納した値の中で長さが４より大きい文字列だけを大文字して表示してください。   
+`textArray`に格納した値の中で長さが４より大きい文字列だけを大文字に変換して表示してください。   
 出力は以下のようになります。
 ```java
 【長さが４より大きい文字列】
@@ -87,7 +88,7 @@ ARRAY
 出力は以下のようになります。
 ```java
 【textArrayの長さは4以上です】
-This is array test
+This is an array test
 ```
 文字列を連結する方法: https://www.sejuku.net/blog/19307
 
