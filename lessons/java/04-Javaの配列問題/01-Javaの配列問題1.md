@@ -51,9 +51,9 @@ numArrayの長さ: 6
 ```java
 numArrayの長さは10未満です。
 numArrayの長さ: 6
-足し算: 22
+最初と最後の値の合計: 22
 ```
-どのように要素への値を代入されているか以下の画像を参考してください。   
+配列の各要素の値がどのように代入されているか以下の画像を参考してください。   
 <img width="500" src="https://user-images.githubusercontent.com/100908505/210033403-59ad078e-5140-4412-9dae-f2fff45d81f6.png">
 
 # 課題３ + α 
@@ -75,7 +75,7 @@ public class Main {
 `numArray`にある値を全部加算して`sum`に入力してください。
 出力は以下のようになります。
 ```java
-numArrayにある値の加算値: 97
+numArrayにある値の合計値: 97
 ```
 配列のデータを取得する方法の参考リンク: [配列のデータを取得する方法](https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E9%85%8D%E5%88%97%E3%81%AE%E5%87%BA%E5%8A%9B)
 
