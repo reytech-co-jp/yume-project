@@ -144,13 +144,14 @@ public class Main {
     Scanner scan = new Scanner(System.in);
     System.out.println("【Leonの点数とAnnaの点数をスペースを付けて入力してください】");
     String inputString = scan.nextLine();
+    //以下の分はただチェックするだけですから確認したあとに削除してください
     System.out.println("【入力値を確認する】");
     System.out.println(inputString);
   }
 
 }
 ```
-***【入力値を確認する】文はただチェックするだけですから確認したあとに削除してください。***   
+***【入力値を確認する】分はただチェックするだけですから確認したあとに削除してください。***   
 そして、`scan.nextLine()`の文も`scan.nextInt()`とか自分が好きな方法でやってみてください。   
 
 # 課題２
@@ -172,13 +173,12 @@ String型からint型に変換することについて参考リンク: https://w
 
 ## 問題のまとめ
 
+- <strong>※LeonとAnnaのそれぞれの点数は`10`点より小さい場合は`0`となります。</strong>   
+- <strong>※LeonとAnnaのそれぞれの点数は`100`点の場合は最初の位の`1`となります。</strong>   
 - <strong>足した数は`10`未満</strong>であればその足した値をそのまま取ります。
   - <strong>例えば、`34`点であれば`3 + 4 = 7`で、`7`となります。</strong>   
 - <strong>足した数は`10`以上</strong>の場合は問題で説明された通り一の位(二つ目の値)をとります。
   - <strong>例えば、`85`点であれば`8 + 5 = 13`で、`13`の一の位(二つ目の値)の`3`となります。</strong>    
-
-<strong>※LeonとAnnaの点数は`10`点より小さい場合は`0`となります。</strong>   
-<strong>※LeonとAnnaの点数は`100`点の場合は最初の位の`1`となります。</strong>   
 
 下記の入力例を利用して自分のコードが出力例と同じく出力を出せるようにしましょう。入力例は3つありますので、その3つを試してみてください。   
 
@@ -230,15 +230,15 @@ Draw
 
 JavaのcharAtメソッドについて参考リンク: https://java-code.jp/185   
 
-実装が終わったら自分のレポジトリに`feature/mark-check-function`という名前でブランチを作成してください。   
+実装が終わったら自分のリポジトリに`feature/mark-check-function`という名前でブランチを作成してください。   
 そして、コミットしてプッシュします。   
 コミットについて参考リンク: [コミットメッセージの勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/github/02-Git%E3%82%B3%E3%83%9E%E3%83%B3%E3%83%89%E3%82%92%E4%BD%BF%E3%81%A3%E3%81%A6GitHub%E3%81%AB%E3%82%BD%E3%83%BC%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%89%E3%82%92push%E3%81%97%E3%81%A6%E3%81%BF%E3%82%88%E3%81%86.md#git-commit%E3%81%A8%E3%81%AF%E4%BD%95%E3%81%8B)
 
 # どうなったら宿題が完了と言えるのか
 
 - 全部の入力例とその出力例が当てること
-- 自分のレポジトリに`feature/mark-check-function`という名前でブランチができていること
+- 自分のリポジトリに`feature/mark-check-function`という名前でブランチができていること
 
 # 宿題
 
-※完了したら自分のレポジトリにプールリクエストを作成してSlackにレビューを出してください。
+※完了したら自分のリポジトリにプールリクエストを作成してSlackにレビューを出してください。
