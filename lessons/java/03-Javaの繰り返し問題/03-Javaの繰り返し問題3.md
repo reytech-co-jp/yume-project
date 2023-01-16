@@ -14,7 +14,7 @@ do-while文の使い方の参考リンク：[do-while文の勉強記事](https:/
 
 # 準備
 
-`Main.java`に`String`形変数`string`、`int`形変数`i`と`count`と`whiteSpaceCount`を宣言して`string`に"Learning java is fun"、`i`と`count`と`whiteSpaceCount`に0を代入してください。
+`Main.java`に`String`形変数`string`、`int`形変数`i`と`count`と`whiteSpaceCount`を宣言して`string`に"learning java is fun"、`i`と`count`と`whiteSpaceCount`に0を代入してください。
 ```java
 public class Main {
 
@@ -43,28 +43,28 @@ public class Main {
 ```
 ここでは文字列の長さを取得する`String`クラスの「length()」と文字列から指定したインデックスの文字を取得する`String`クラスの「charAt()」メソッドを使用します。これらについて分からない場合は、こちらのサイトを参考にしてください。  
 
-length()メソッドの参考リンク: [length()メソッドの使い方](https://www.sejuku.net/blog/19392)  
+length()メソッドの参考リンク: [length()メソッドの使い方](https://www.javadrive.jp/start/string/index6.html)  
 
 charAt()メソッドの参考リンク: [charAt()メソッドの使い方](https://www.javadrive.jp/start/string/index5.html)
 
 # 課題2
 
 この課題では、`"learning java is fun"`文字列に含まれる文字数を数える`do-while`コードを記載してください。  
-文字数を数える時に空白を数えないように開発してほしいです。　　
+文字数を数える時に空白を数えないようにしましょう。　　
 
 出力は下記のようになります。
 
 出力：
 
 ```java
-【"learning java is fun"文字列の文字数を表示する】
+【"learning java is fun"の文字数を表示する】
 
 文字列の文字数：17文字
 ```
 
 # 課題3
 
-"Learning Java is fun"文字列内の単語数を数える`do-while`コードを追加してください。
+"learning Java is fun"の単語数を数える`do-while`コードを追加してください。
 
 出力は下記のようになります。
 
@@ -73,7 +73,7 @@ charAt()メソッドの参考リンク: [charAt()メソッドの使い方](https
 ```java
 【"learning java is fun"文字列の単語数を表示する】
 
-文字列の単語数：4語
+文字列の単語数：4単語
 ```
 
 # 課題4
@@ -93,7 +93,7 @@ is
 fun
 ```
 ここでは文字列を分割する`String`クラスの「split()」メソッドを使用しますのでこのメソッドについて分からない場合は、こちらのサイトを参考にしてください。  
-split()メソッドの参考リンク: [split()メソッドの使い方](https://www.sejuku.net/blog/14487)
+split()メソッドの参考リンク: [split()メソッドの使い方](https://www.javadrive.jp/start/string/index20.html)
 
 # 課題5
 "Learning Java is fun"文字列の各単語の先頭を大文字にする`do-while`コードを追加してください。
@@ -107,11 +107,11 @@ split()メソッドの参考リンク: [split()メソッドの使い方](https:/
 Learning Java Is Fun
 ```
 ここでは文字列を分割する`String`クラスの「split()」メソッドと単語を大文字にする`String`クラスの「toUpperCase()」メソッドと文字列を切り出し抽出する`String`クラスの「substring()」メソッドを使用しますのでこれらについて分からない場合は、こちらのサイトを参考にしてください。  
-split()メソッドの参考リンク: [split()メソッドの使い方](https://www.sejuku.net/blog/14487)  
+split()メソッドの参考リンク: [split()メソッドの使い方](https://www.javadrive.jp/start/string/index20.html)  
 
-toUpperCase()メソッドの参考リンク: [toUpperCase()の使い方](https://www.sejuku.net/blog/50886)  
+toUpperCase()メソッドの参考リンク: [toUpperCase()の使い方](https://www.javadrive.jp/start/string/index14.html)  
 
-substring()メソッドの参考リンク: [substring()の使い方](https://www.sejuku.net/blog/14503)  
+substring()メソッドの参考リンク: [substring()の使い方](https://www.javadrive.jp/start/string/index7.html)  
 
 # 宿題
 
