@@ -23,7 +23,7 @@ public class Main {
 }
 ```
 Stringについて知らない方はこちらのリンクを参考にして読んでみてください。   
-参考リンク: https://www.w3schools.com/java/java_strings.asp
+参考リンク: https://www.javadrive.jp/start/num/index3.html
  
 # 課題１   
 
@@ -33,7 +33,7 @@ Stringについて知らない方はこちらのリンクを参考にして読�
 greetingの長さは10以上です。
 ```
 ここで使う(String.length)Stringクラスのメソッドを知らない方はこちらのサイトを参考にしてください。   
-参考リンク: https://www.w3schools.com/java/ref_string_length.asp
+参考リンク: https://www.javadrive.jp/start/string/index6.html
 
 # 課題２
 
@@ -43,7 +43,7 @@ greetingの長さは10以上です。
 greeting : HELLO WORLD
 greetingの長さは11です。
 ```
-大文字(UPPER CASE)について参考リンク: https://www.w3schools.com/java/ref_string_touppercase.asp   
+大文字(UPPER CASE)について参考リンク: https://www.javadrive.jp/start/string/index14.html   
 printfの参考リンク: https://www.baeldung.com/java-printstream-printf#syntax
 
 # 課題３
@@ -78,7 +78,7 @@ public class Main {
 greetingとgreeting2が同じです。
 ```
 こちらで使う`&&`論理演算子はこちらのサイトを参考にしてください。   
-論理演算子の参考リンク: https://www.geeksforgeeks.org/java-logical-operators-with-examples/   
+論理演算子の参考リンク: https://www.javadrive.jp/start/ope/index12.html   
 
 # 課題５+ α 
 
@@ -94,7 +94,7 @@ public class Main {
 
 }
 ```
-greetingからWorldのインデックスを取得する方法: https://www.w3schools.com/java/ref_string_indexof.asp
+greetingからWorldのインデックスを取得する方法: https://www.tohoho-web.com/java/string.htm#indexOf
 
 # 課題５
 
@@ -103,7 +103,7 @@ greetingからWorldのインデックスを取得する方法: https://www.w3sch
 ```java
 World
 ```
-greetingからWorldの文字を取得する方法: https://www.geeksforgeeks.org/substring-in-java/   
+greetingからWorldの文字を取得する方法: https://www.javadrive.jp/start/string/index7.html   
 
 # 宿題
 

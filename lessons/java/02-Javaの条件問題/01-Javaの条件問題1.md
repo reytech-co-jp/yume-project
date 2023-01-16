@@ -25,7 +25,7 @@ public class Main {
 }
 ```
 int型変数について知らない方はこちらのリンクを参考にして読んでみてください。   
-参考リンク: https://www.w3schools.com/java/java_variables.asp
+参考リンク: https://www.javadrive.jp/start/var/index4.html
 
 # 課題１
 
@@ -35,7 +35,7 @@ int型変数について知らない方はこちらのリンクを参考にし�
 num1の値がnum2の値より大きいです。
 ```
 ここで使う比較演算子を知らない方はこちらのサイトを参考にしてください。   
-比較演算子の参考リンク: https://www.w3schools.com/java/java_operators.asp   
+比較演算子の参考リンク: https://www.javadrive.jp/start/ope/index11.html   
 
 # 課題２
 
@@ -45,7 +45,7 @@ num1の値がnum2の値より大きいです。
 num1とnum2の足し算値は15以上です。
 ```
 ここで使う比較演算子を知らない方はこちらのサイトを参考にしてください。   
-比較演算子の参考リンク: https://www.w3schools.com/java/java_operators.asp   
+比較演算子の参考リンク: https://www.javadrive.jp/start/ope/index11.html   
 
 以上、超える/より大きい、以下、未満についてはこちらのリンクを参考にして読んでみてください。   
 https://foreignlang.ecc.co.jp/learn/l00064d/   
@@ -58,7 +58,7 @@ https://foreignlang.ecc.co.jp/learn/l00064d/
 num1とnum2の引き算: 5
 ```
 こちらで使う`||`論理演算子はこちらのサイトを参考にしてください。   
-論理演算子の参考リンク: https://www.geeksforgeeks.org/java-logical-operators-with-examples/
+論理演算子の参考リンク: https://www.javadrive.jp/start/ope/index12.html
 
 # 課題４
 
@@ -68,7 +68,7 @@ num1とnum2の引き算: 5
 num1とnum2の足し算: 15
 ```
 こちらで使う`&&`論理演算子はこちらのサイトを参考にしてください。   
-論理演算子の参考リンク: https://www.geeksforgeeks.org/java-logical-operators-with-examples/  
+論理演算子の参考リンク: https://www.javadrive.jp/start/ope/index12.html  
 
 # 課題５
 

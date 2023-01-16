@@ -94,7 +94,7 @@ public class Main {
 }
 ```
 コピーする方法は以下のリンクを参考にして自分が好きな方法でやってみてください。   
-参考リンク: https://workteria.forward-soft.co.jp/blog/detail/10213
+参考リンク: https://www.javadrive.jp/start/array/index10.html
 
 # 課題４
 
@@ -109,7 +109,7 @@ nameArray【0】の値: John
 【copyNameArrayとnameArrayは同じではありません。】
 ```
 2つの配列が等しいかどうか調べるときに使うメソッドは以下のリンクを参考にしてください。   
-https://www.geeksforgeeks.org/java-util-arrays-equals-java-examples/
+https://www.javadrive.jp/start/array/index11.html
 
 # 課題５
 
