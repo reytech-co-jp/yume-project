@@ -183,6 +183,7 @@ yearsの並べ替えられた数値配列 : [2024, 2022, 2019, 2016, 2012, 2011,
 `Arrays.sort(配列名, Collections.reverseOrder())`メソッドについてちらのリンクを参考にして読んでみてください。  
 
 Arrays.sort(配列名, Collections.reverseOrder())メソッドの参考リンク:　[Arrays.sort(配列名, Collections.reverseOrder())メソッドの使い方](https://www.sejuku.net/blog/14155)
+
 出力は次の通りになります。  
 
 出力：
