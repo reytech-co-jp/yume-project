@@ -4,7 +4,7 @@ Javaの配列について次の課題をやってみましょう。
 # 配列文の使い方
 配列文の使い方についてはこちらのリンクを参考にしてください。
 
-配列文の使い方の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md
+配列文の使い方の参考リンク: [配列文の勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md)
 
 # 準備
 
@@ -29,9 +29,9 @@ public class Main {
    
 }
 ```
-ここで使う`Arrays.toString()`メソッドを知らない方はこちらのサイトを参考にしてください。  
+ここでは配列の各要素に格納されている値を使って配列の文字列表現を取得するため`Arrays.toString(配列名)`メソッドを使用します。ここ使う`Arrays.toString(配列名)`メソッドを知らない方はこちらのサイトを参考にしてください。  
 
-参考リンク: <https://www.geeksforgeeks.org/arrays-sort-in-java-with-examples/>  
+Arrays.toString(配列名)メソッドの参考リンク: [Arrays.toString(配列名)メソッドの使い方](https://www.javadrive.jp/start/array/index16.html)  
 
 出力は次の通りになります。  
 
@@ -64,7 +64,7 @@ yearsの並べ替えられた数値配列 : [1888, 1975, 1990, 1999, 2001, 2002,
 `Arrays.sort`メソッドは自動的に昇順にソートすることができます。  
 
 `Arrays.sort(配列名)`メソッドについて学びたい方はこちらのリンクを参考にして読んでみてください。  
-参考リンク: <https://www.geeksforgeeks.org/arrays-sort-in-java-with-examples/>
+`Arrays.sort(配列名)`メソッドの参考リンク: [Arrays.sort(配列名)メソッドの使い方](https://www.javadrive.jp/start/array/index14.html)  
 
 出力は次の通りになります。  
 
@@ -127,7 +127,7 @@ Arrayクラスをインポートすることで、Arraysクラスの`copyOf`メ�
 挿入する時、新しい年はどの位置に配置するべきかを表示して、並べ替えて挿入した配列を新しい配列`new_array`を表示するコードを記載してください。
 
 `Arrays.copyOf(配列, コピーする要素数)`メソッドについて知らない方はこちらのリンクを参考にして読んでみてください。  
-参考リンク: <https://www.geeksforgeeks.org/arrays-copyof-in-java-with-examples/>
+`Arrays.copyOf(配列, コピーする要素数)`メソッドの参考リンク: [Arrays.copyOf(配列, コピーする要素数)メソッドの使い方](https://www.javadrive.jp/start/array/index10.html#section3)
 
 出力は以下の通りになります。
 
@@ -182,8 +182,7 @@ yearsの並べ替えられた数値配列 : [2024, 2022, 2019, 2016, 2012, 2011,
 
 `Arrays.sort(配列名, Collections.reverseOrder())`メソッドについてちらのリンクを参考にして読んでみてください。  
 
-参考リンク:　<https://www.geeksforgeeks.org/java-program-to-sort-the-array-elements-in-descending-order/>
-
+Arrays.sort(配列名, Collections.reverseOrder())メソッドの参考リンク:　[Arrays.sort(配列名, Collections.reverseOrder())メソッドの使い方](https://www.sejuku.net/blog/14155)
 出力は次の通りになります。  
 
 出力：
