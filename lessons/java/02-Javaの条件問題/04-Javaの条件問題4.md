@@ -5,7 +5,7 @@ Javaの条件文の課題をやってみましょう。
 # switch文の使い方
 
 switch文の使い方についてはこちらのリンクを参考にしてください。   
-switchの使い方の参考リンク: https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#switch%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9
+switchの使い方の参考リンク: [switchの勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#switch%E6%96%87%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9)
 
 # お願い
 
