@@ -70,7 +70,7 @@ break文の参考リンク：[break文の使い方](https://www.javadrive.jp/sta
 10+20+30+40+50+60+70+90+100 = 550
 ```
 
-# 課題3の準備
+# 課題4の準備
 `Main.java`に`int`型の変数`count`と`long`型の変数`digit`を宣言して`count`に0、`digit`に542981を代入してください。
 
 ```java
@@ -110,58 +110,18 @@ public class Main {
 5 + 4 + 2 + 9 + 8 + 1：29
 ```
 
-# 課題6の準備
-
-`Main.java`に2つの変数`num`と`limit`を宣言して`num`に97、`limit`に122を代入してください。
-```java
-public class Main {
-
-  public static void main(String[] args) {
-    int num = 97;
-    int limit = 122;
-  }
-
-}
-```
 # 課題6
-aからzまでのアルファベットを昇順に表示するプログラムを追加してください。  
+
+`while`文を使用して指定された整数の桁`542981`を反転して結果を表示するコードを記載してください。
 
 出力は下記のようになります。  
 
 出力：
 
 ```java
-【aからzまでの数字を昇順で表示する】
-a
-b
-c
-d
-e
-f
-g
-h
-i
-j
-k
-l
-m
-n
-o
-p
-q
-r
-s
-t
-u
-v
-w
-x
-y
-z
+【整数542981を反転した結果を表示する】
+整数542981の逆順：189245
 ```
-こちらのコードを作成するため英語の文字や記号を数字で表すASCII文字を使用します。  
-ASCII文字について知らない方はこちらのリンクを参考にして読んでみてください。  
-ASCII文字の参考リンク: [ASCII文字の使い方](https://www.javadrive.jp/start/num/index1.html)  
 
 # 宿題
 
