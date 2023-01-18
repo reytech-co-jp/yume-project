@@ -56,7 +56,7 @@ greetingの値にスペースがあります！
 ここで使う(String.contains)Stringクラスのメソッドを知らない方はこちらのサイトを参考にしてください。   
 参考リンク: https://www.w3schools.com/java/ref_string_contains.asp  
 
-# 課題４+ α
+# 課題４の準備
 
 下記のように`greeting2`というもう一つのString型変数を記述してください。
 ```java
@@ -80,7 +80,7 @@ greetingとgreeting2が同じです。
 こちらで使う`&&`論理演算子はこちらのサイトを参考にしてください。   
 論理演算子の参考リンク: https://www.javadrive.jp/start/ope/index12.html   
 
-# 課題５+ α 
+# 課題５の準備 
 
 `worldIndex`というint型変数を記述してください。   
 下記のように`worldIndex`の値は`greeting`から`World`のインデックスを取得して記載してください。

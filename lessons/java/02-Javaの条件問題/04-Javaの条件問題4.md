@@ -33,7 +33,7 @@ public class Main {
 ```
 もし、`day`に`1`を記載した場合は`月曜日`、`day`に`2`を記載した場合は`火曜日`という風に`day`にある値によって曜日を表示するように実装しましょう。
 
-# 課題２ + α
+# 課題２の準備
 
 下記のように`word`というString型変数を記述してください。
 ```java
@@ -65,7 +65,7 @@ Consonant
 ```
 defaultの参考リンク: [defaultの使い方](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#default%E3%83%A9%E3%83%99%E3%83%AB%E3%82%92%E5%88%A9%E7%94%A8%E3%81%99%E3%82%8B)
 
-# 課題４ + α
+# 課題４の準備
 
 下記のように`levelString`と`level`という二つの変数を記載してください。
 ```java

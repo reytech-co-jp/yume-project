@@ -92,7 +92,7 @@ This is an array test
 ```
 文字列を連結する方法: https://www.javadrive.jp/start/string/index17.html
 
-# 課題５+ α 
+# 課題５の準備 
 
 下記のように`vowels`というString型の配列を記載してください。
 ```java

@@ -56,7 +56,7 @@ numArrayの長さ: 6
 配列の各要素の値がどのように代入されているか以下の画像を参考してください。   
 <img width="500" src="https://user-images.githubusercontent.com/100908505/210033403-59ad078e-5140-4412-9dae-f2fff45d81f6.png">
 
-# 課題３ + α 
+# 課題３の準備 
 
 下記のように`sum`というint型の変数を記述してください。   
 ```java
@@ -79,7 +79,7 @@ numArrayにある値の合計値: 97
 ```
 配列のデータを取得する方法の参考リンク: [配列のデータを取得する方法](https://github.com/reytech-co-jp/yume-project/blob/feature/array_statement_questions/lessons/java/04-Java%E3%81%AE%E9%85%8D%E5%88%97%E5%95%8F%E9%A1%8C/Java%E9%85%8D%E5%88%97%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#%E9%85%8D%E5%88%97%E3%81%AE%E5%87%BA%E5%8A%9B)
 
-# 課題４+ α 
+# 課題４の準備
 
 下記のように`nameArray`と`copyNameArray`という2つのString型の配列を記述してください。   
 <strong>`copyNameArray`の値は`nameArray`にある値をコーピします。</strong>
