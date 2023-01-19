@@ -153,7 +153,7 @@ public class Main {
 
 # 課題6の準備
 
-`Main.java`に下記のように次の変数`date`という`LocalDateTime`型変数とint形`hour`という変数を宣言してください。変数`date`には現在日時を取得するため、LocalDateTimeクラスのnow()メソッドを使用します。時の情報を取得するため、getHour()メソッドを使用して結果の数値を`hour`に代入します。getHour()メソッドはLocalDateTimeオブジェクトに含まれるint時間を0〜23で返します。
+`Main.java`に下記のように次の変数`dateTime`という`LocalDateTime`型変数とint形`hour`という変数を宣言してください。変数`dateTime`には現在日時を取得するため、LocalDateTimeクラスのnow()メソッドを使用します。時の情報を取得するため、getHour()メソッドを使用して結果の数値を`hour`に代入します。getHour()メソッドはLocalDateTimeオブジェクトに含まれるint時間を0〜23で返します。
 
 `LocalDateTime`クラスは、日付/時間をわかりやすく表示するために用意されています。  
 `LocalDateTime`クラスについの詳細を知りたい方はこちらのリンクを参考にしてください。  
@@ -164,8 +164,8 @@ import java.time.LocalDateTime;
 public class Main {
 
   public static void main(String[] args) {
-    LocalDateTime date = LocalDateTime.now();
-    int hour = date.getHour();
+    LocalDateTime dateTime = LocalDateTime.now();
+    int hour = dateTime.getHour();
   }
 
 }
