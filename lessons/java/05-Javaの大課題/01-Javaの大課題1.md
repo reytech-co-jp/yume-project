@@ -26,7 +26,63 @@ Javaの条件、繰り返し、配列、Scannerクラスを使用してじゃん
 # 準備
 
 GitHubの自分のアカウントでリポジトリを作成してください。
+
 リポジトリの名前は「rock-paper-scissors-project」にしてください。
+
+IntelliJからProjectを作成しましょう。  
+
+<img width="500" alt="スクリーンショット 2022-07-16 19 05 49" src="https://user-images.githubusercontent.com/62045457/179350352-6f6874cc-cb80-4f87-a527-44667322c4ed.png">
+
+ディレクトリ構成は下記のようにしましょう。  
+
+```bash
+.
+├── .gitignore
+├── README.md
+└── src
+    └── Main.java
+```
+.gitignoreには下記を記載してください。  
+
+```
+HELP.md
+.gradle
+build/
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+bin/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+out/
+!**/src/main/**/out/
+!**/src/test/**/out/
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+
+### VS Code ###
+.vscode/
+```
 
 `README.md`には下記を記載してください。
 
@@ -35,6 +91,7 @@ GitHubの自分のアカウントでリポジトリを作成してください�
 
 じゃんけんゲームのプログラムを管理します。
 ```
+
 `src/Main.java`には下記を記載してください。
 
 ```java
@@ -54,6 +111,8 @@ Save ActionsというPluginをいれるとよいです。
 <img width="400" alt="179350423-f3ca3c33-c3fa-4d3c-9b2c-18fcd86247ae" src="https://user-images.githubusercontent.com/120652222/211270145-13bca608-4a81-4277-88b3-dc8618a48905.png">
 
 ここまでできたら自分のリポジトリにプロジェクトをpushしてください。
+
+----
 
 # 課題１
 
@@ -96,7 +155,7 @@ public class Main
 じゃ日花里さん今ゲームを始めます！
 ```
 ここまでの変更を日本語でコミットしてpushしてください。
-そして、Pull Requestを作成してください。
+feature/add-variables→mainにPull Requestを作成してください。
 
 Pull Requestはレビューしやすいようにタイトルや説明をよく考えて書いてください。
 Pull Requestを作成したらレビューを依頼してください。
@@ -106,6 +165,10 @@ Pull Requestを作成したらレビューを依頼してください。
 
 Pull Requestをマージしたら自動でリモートのブランチを削除する機能がありますので設定をONにするといいです。   
 参考： <https://docs.github.com/ja/repositories/configuring-branches-and-merges-in-your-repository/configuring-pull-request-merges/managing-the-automatic-deletion-of-branches>
+
+JavaのScannerについての参考リンク: [Scannerの使い方](https://github.com/reytech-co-jp/yume-project/blob/feature/java_big_questions/lessons/java/05-Java%E3%81%AE%E5%A4%A7%E8%AA%B2%E9%A1%8C/JavaScanner%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#scanner%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6)
+
+JavaのRandomについての参考リンク: [Randomクラスの勉強記事](https://java-code.jp/288)
 
 # 課題2
 自分のリポジトリに`feature/play-janken`という名前のブランチを作成してください。
@@ -200,3 +263,7 @@ Pull Requestをマージしたら自動でリモートのブランチを削除�
 ```
 ここまでできたら変更をコミット、pushし、Pull Requestを作成し、レビューを依頼してください。
 レビューが完了したらPull Requestをマージして`feature/play-again`ブランチは削除してください。
+
+# 宿題
+
+※完了したら自分のリポジトリにプールリクエストを作成してSlackにレビューを出してください。
