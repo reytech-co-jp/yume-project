@@ -13,7 +13,7 @@ Javaの条件についてまず`if-else`の課題をやってみましょう。
 
 # 準備
 
-`Main.java`に下記のようにint形の`num1`変数を宣言してください。  
+`Main.java`に下記のようにint型の`num1`変数を宣言してください。  
 
 ```java
 public class Main {
@@ -39,7 +39,7 @@ public class Main {
 
 # 課題2の準備
 
-`Main.java`に下記のようにint形の変数`num2`という変数を宣言してください。  
+`Main.java`に下記のようにint型の変数`num2`という変数を宣言してください。  
 
 ```java
 public class Main {
@@ -66,7 +66,7 @@ public class Main {
 
 # 課題3の準備
 
-`Main.java`に下記のようにint形の変数`length`, `width`という変数を宣言してください。  
+`Main.java`に下記のようにint型の変数`length`, `width`という変数を宣言してください。  
 
 ```java
 public class Main {
@@ -94,7 +94,7 @@ public class Main {
 
 # 課題4の準備
 
-`Main.java`に下記のようにint形の`mark`変数を宣言してください。
+`Main.java`に下記のようにint型の`mark`変数を宣言してください。
 
 ```java
 public class Main {
@@ -155,8 +155,8 @@ public class Main {
 
 `Main.java`に下記のように次の変数`date`という`Date`型変数とint形`hour`という変数を宣言してください。  
 `Date`型のフォーマットは、日付をわかりやすく表示するために用意されています。  
-`Date`形についの詳細を知りたい方はこちらのリンクを参考にしてください。  
-`Date`型のフォーマットの使い方の参考リンク: [Date形の使い方](https://www.sejuku.net/blog/21098)
+`Date`型についの詳細を知りたい方はこちらのリンクを参考にしてください。  
+`Date`型のフォーマットの使い方の参考リンク: [Date型の使い方](https://docs.oracle.com/javase/jp/8/docs/api/java/util/Date.html)
 
 ```java
 import java.util.Date;
