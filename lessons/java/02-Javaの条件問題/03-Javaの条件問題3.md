@@ -153,18 +153,19 @@ public class Main {
 
 # 課題6の準備
 
-`Main.java`に下記のように次の変数`date`という`Date`型変数とint形`hour`という変数を宣言してください。  
-`Date`型のフォーマットは、日付をわかりやすく表示するために用意されています。  
-`Date`型についの詳細を知りたい方はこちらのリンクを参考にしてください。  
-`Date`型のフォーマットの使い方の参考リンク: [Date型の使い方](https://docs.oracle.com/javase/jp/8/docs/api/java/util/Date.html)
+`Main.java`に下記のように次の変数`date`という`LocalDateTime`型変数とint形`hour`という変数を宣言してください。変数`date`には現在日時を取得するため、LocalDateTimeクラスのnow()メソッドを使用します。時の情報を取得するため、getHour()メソッドを使用して結果の数値を`hour`に代入します。getHour()メソッドはLocalDateTimeオブジェクトに含まれるint時間を0〜23で返します。
+
+`LocalDateTime`クラスは、日付/時間をわかりやすく表示するために用意されています。  
+`LocalDateTime`クラスについの詳細を知りたい方はこちらのリンクを参考にしてください。  
+`LocalDateTime`クラスのフォーマットの使い方の参考リンク: [LocalDateTimeクラスの使い方](https://docs.oracle.com/javase/jp/8/docs/api/java/time/LocalDateTime.html)
 
 ```java
-import java.util.Date;
+import java.time.LocalDateTime;
 public class Main {
 
   public static void main(String[] args) {
-    Date date = new Date();
-    int hour = date.getHours();
+    LocalDateTime date = LocalDateTime.now();
+    int hour = date.getHour();
   }
 
 }
@@ -174,7 +175,7 @@ public class Main {
 
 今の時間は12未満である場合は、`【午前{hour}時間です。】`と表示、今の時間は12未満ではない場合は、`【午後{hour}時間です。】`と表示するコードを追加してください！  
 
-今は午前11時間なら出力は以下の通りになります。  
+今は午前11時なら出力は以下の通りになります。  
 
 出力：
 
