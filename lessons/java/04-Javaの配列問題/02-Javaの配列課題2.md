@@ -29,7 +29,7 @@ public class Main {
    
 }
 ```
-ここでは配列の各要素に格納されている値を使って配列の文字列表現を取得するため`Arrays.toString(配列名)`メソッドを使用します。ここ使う`Arrays.toString(配列名)`メソッドを知らない方はこちらのサイトを参考にしてください。  
+ここでは配列の各要素に格納されている値を使って配列の文字列表現を取得するため`Arrays.toString(配列名)`メソッドを使用します。ここで使う`Arrays.toString(配列名)`メソッドを知らない方はこちらのサイトを参考にしてください。  
 
 Arrays.toString(配列名)メソッドの参考リンク: [Arrays.toString(配列名)メソッドの使い方](https://www.javadrive.jp/start/array/index16.html)  
 
