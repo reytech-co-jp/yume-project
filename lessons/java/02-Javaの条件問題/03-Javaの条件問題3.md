@@ -107,10 +107,10 @@ public class Main {
 
 # 課題4
 
-マークは80以上の場合は、`【合格おめでとうございます！】`と表示、マークは80未満である場合は`【申し訳ございませんが不合格です！】`と表示するコードを追加してください。この処理を開発する時は、`if..else`の三項演算子を使用してください。
+マークは80以上の場合は、`【合格おめでとうございます！】`と表示、マークは80未満である場合は`【申し訳ございませんが不合格です！】`と表示するコードを追加してください。この処理を開発する時は、`if...else`の三項演算子を使用してください。
 
-`if..else`の三項演算子について分からない場合はこちらのサイトを参考にしてください。  
-`if..else`の三項演算子の参考リンク：[if..elseの三項演算子の勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/if_else_statement_questions/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#ifelse%E3%81%AE%E4%B8%89%E9%A0%85%E6%BC%94%E7%AE%97%E5%AD%90)
+`if...else`の三項演算子について分からない場合はこちらのサイトを参考にしてください。  
+`if...else`の三項演算子の参考リンク：[if...elseの三項演算子の勉強記事](https://github.com/reytech-co-jp/yume-project/blob/feature/if_else_statement_questions/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#ifelse%E3%81%AE%E4%B8%89%E9%A0%85%E6%BC%94%E7%AE%97%E5%AD%90)
 
 出力は以下の通りになります。
 
