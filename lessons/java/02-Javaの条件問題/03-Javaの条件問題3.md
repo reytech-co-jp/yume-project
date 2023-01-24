@@ -1,11 +1,11 @@
-# if-elseの課題
+# if...elseの課題
 
-Javaの条件についてまず`if-else`の課題をやってみましょう。  
+Javaの条件についてまず`if...else`の課題をやってみましょう。  
 
-# if-else文の使い方
+# if...else文の使い方
 
-`if-else`文の使い方についてはこちらのリンクを参考にしてください。  
-`if-else`文の使い方の参考リンク: [if-else文の勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#ifelse)
+`if...else`文の使い方についてはこちらのリンクを参考にしてください。  
+`if...else`文の使い方の参考リンク: [if...else文の勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/02-Java%E3%81%AE%E6%9D%A1%E4%BB%B6%E5%95%8F%E9%A1%8C/.Java%E6%9D%A1%E4%BB%B6%E6%96%87%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#ifelse)
 
 # お願い
 
@@ -54,7 +54,7 @@ public class Main {
 
 # 課題2
 
-`if-else`文を使用して変数`num1`が`num2`より大きい場合は`【変数num1が変数num2より大きいです。】`と表示、`num2`が`num1`より大きい場合は`【変数num2が変数num1より大きいです。】`と表示するコードを記載してください。
+`if...else`文を使用して変数`num1`が`num2`より大きい場合は`【変数num1が変数num2より大きいです。】`と表示、`num2`が`num1`より大きい場合は`【変数num2が変数num1より大きいです。】`と表示するコードを記載してください。
 
 出力は以下の通りになります。
 
@@ -79,10 +79,9 @@ public class Main {
 }
 ```
 
-
 # 課題3
 
-`if-else`を使用して変数`length`と変更`width`が等しい場合は、`【形は四角です。】`と表示、等しくない場合は`【形は長方形です。】`と表示するコードを記載してください。
+`if...else`を使用して変数`length`と変更`width`が等しい場合は、`【形は四角です。】`と表示、等しくない場合は`【形は長方形です。】`と表示するコードを記載してください。
 
 出力は以下の通りになります。
 
