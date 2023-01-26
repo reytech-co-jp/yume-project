@@ -120,7 +120,7 @@ public class TriangleProgram {
     int rows = scan.nextInt();
     //以下の分はただチェックするだけですから確認したあとに削除してください
     for (int i = 0; i < rows; i++) {
-     System.out.print("* ");
+      System.out.print("* ");
     }
 
   }
@@ -137,19 +137,17 @@ public class TriangleProgram {
 3. `rows`の値は7より大きい、そして15未満の場合はピラミッド形を表示してください。
 4. それ以外は`invalid`と表示してください。
 
-# 例プログラム
+# 例
 
 問題を実装する前にこの例プログラムを参考にしてください。   
-この例プログラムはただ参考するだけですので実装しなくても大丈夫です。
+このプログラムは例だけですので実装しなくても大丈夫です。
 ```java
 public class ExampleProgram {
 
   public static void main(String[] args) {
-      int i,j,rows = 6;
-      for (i=0; i<rows; i++) {  
-          //inner loop work for space      
-        for (j=rows-i; j>0; j--) {  
-          //prints space between two stars      
+      int i, j, rows = 6;
+      for (i = 0; i < rows; i++) { 
+        for (j = rows - i; j > 0; j--) {
           System.out.print("* ");   
         }
           System.out.println();   
@@ -172,7 +170,7 @@ public class ExampleProgram {
 
 # 課題２
 
-入力した値は0より大きい、そして4以下の場合、直角三角形が表示されるように実装してください。   
+入力した値が0より大きい、そして4以下の場合、直角三角形が表示されるように実装してください。   
 出力は以下のようになります。
 ```java
 * 
@@ -183,7 +181,7 @@ public class ExampleProgram {
 
 # 課題３
 
-問題から2番の通りもし入力した値は4より大きい、そして7以下の場合は左三角形を表示されるようにしましょう。   
+もし入力した値は4より大きい、そして7以下の場合は下記のような三角形が表示されるようにしましょう。   
 出力は以下のようになります。
 ```java
            * 
@@ -195,7 +193,7 @@ public class ExampleProgram {
 
 # 課題４
 
-問題から3番の通り入力した値は7より大きい、そして15未満の場合はピラミッド形を表示しましょう。   
+入力した値は7より大きい、そして15未満の場合はピラミッド形を表示しましょう。   
 出力は以下のようになります。
 ```java
        * 
@@ -210,7 +208,7 @@ public class ExampleProgram {
 
 # 課題５
 
-入力した値は16、30、0など入力された場合は`invalid`と表示してください。   
+入力した値は16、30、0など入力された場合は`Invalid`と表示してください。   
 ```java
 Invalid
 ```
@@ -218,7 +216,7 @@ Invalid
 # どうなったら宿題が完了と言えるのか
 
 - 入力した値は0より大きい、そして4以下の場合は直角三角形が表示されること
-- 入力した値は4より大きい、そして7以下の場合は左三角形が表示されること
+- 入力した値は4より大きい、そして7以下の場合は左に直角がある三角形が表示されること
 - 入力した値は7より大きい、そして15未満の場合はピラミッド形が表示されること
 - 入力した値は16、0など入力された場合は`invalid`が表示されること
 - 自分のリポジトリに`feature/display-triangle`という名前でブランチができていること
