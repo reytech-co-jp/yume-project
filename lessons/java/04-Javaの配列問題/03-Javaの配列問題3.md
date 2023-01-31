@@ -59,9 +59,9 @@ test
 【'i'がない文字列】
 AN ARRAY TEST
 ```
-contains()のメソッドについて参考リンク: https://www.sejuku.net/blog/19257   
+contains()のメソッドについて参考リンク: https://www.w3schools.com/java/ref_string_contains.asp  
 System.out.print()メソッドについて参考リンク: https://uxmilk.jp/48801   
-文字列を大文字する方法: https://www.sejuku.net/blog/50886
+文字列を大文字する方法: https://www.javadrive.jp/start/string/index14.html
 
 # 課題３ 
 
@@ -71,7 +71,7 @@ System.out.print()メソッドについて参考リンク: https://uxmilk.jp/488
 【長さが４より大きい文字列】
 ARRAY
 ```
-大文字にする方法: https://www.sejuku.net/blog/50886
+大文字にする方法: https://www.javadrive.jp/start/string/index14.html
 
 # 課題４
 
@@ -90,9 +90,9 @@ ARRAY
 【textArrayの長さは4以上です】
 This is an array test
 ```
-文字列を連結する方法: https://www.sejuku.net/blog/19307
+文字列を連結する方法: https://www.javadrive.jp/start/string/index17.html
 
-# 課題５+ α 
+# 課題５の準備 
 
 下記のように`vowels`というString型の配列を記載してください。
 ```java
@@ -113,8 +113,8 @@ public class Main {
 【vowelsを並べ替えて表示する】
 a,e,i,o,u
 ```
-配列を並べ替える方法: https://programmer-life.work/java/arrays-sort
-String型の配列を指定した場合のjoinメソッドの使用方法: https://www.sejuku.net/blog/19307
+配列を並べ替える方法: https://programmer-life.work/java/arrays-sort   
+文字列を連結する方法: https://www.javadrive.jp/start/string/index17.html
 
 # 宿題
 
