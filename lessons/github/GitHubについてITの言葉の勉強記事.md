@@ -17,7 +17,7 @@
 | ふくすうにん   		| 複数人       				| Multiple People      		| 
 | きょうゆうする   		| 共有する        			| Share      				| 
 | えつらんする   		| 閲覧する        			| Browse      				| 
-| てもと   			| 手元        				| On Hand      				| 
+| てもと   			| 手元        				| At Hand      				| 
 | へんしゅうする   		| 編集する         			| Edit     					| 
 | さぎょうする   		| 作業する        			| Work      				| 
 | かんきょう   			| 環境        				| Environment      			| 
