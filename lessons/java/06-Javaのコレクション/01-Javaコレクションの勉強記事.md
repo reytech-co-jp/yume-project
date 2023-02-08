@@ -41,7 +41,7 @@ public class Main {
     }
 }
 ```
-最初に`ArrayList` を使用して`List`を作成するため、`「List<データ型名> 変数名 = new ArrayList<データ型名>();」`の形で記述します。  
+最初に`ArrayList` を使用して`List`を作成するため、`「List<データ型名> リスト名 = new ArrayList<データ型名>();」`の形で記述します。  
 次に`movies`Listに要素を追加するには、`リスト名.add(要素)`メソッドを使用します。  
 `movies`Listを出力するには`for-each`ループで繰り返して出力します。
 
