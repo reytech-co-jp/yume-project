@@ -5,13 +5,13 @@
 
 `コレクション`は集められたデータに対して検索、並べ替え、挿入、操作、削除などの操作実行できます。
 
-これから`コレクション`インターフェースを継承して作られている`List`と`コレクション`とよく似た機能を持つ`Map`も合わせて解決させていただきます。
+これから`コレクション`インターフェースを継承して作られている`List`と`コレクション`とよく似た機能を持つ`Map`も合わせて解説いたします。
 
 # List
 `Java`の`List`は格納されたデータを順序付けして管理します。
 要素を挿入、更新、削除、および検索するためのインデックスベースのメソッドを使用することができます。重複した要素を持つこともできます。
 
-次は`List`インターフェースを実装したクラスの一つ`ArrayList`について解決させていただきます。
+次は`List`インターフェースを実装したクラスの一つ`ArrayList`について解説いたします。
 
 ## ArrayListの使い方
 `ArrayList`は`List`インターフェースを実装したクラスの一つで、主にデータベースから取得したデータを格納し、処理する際に使われるクラスです。  
@@ -20,7 +20,7 @@
 
 以下の`ArrayList`に要素をセットし、その値を出力する例を見てみましょう。
 ```java
-//List、ArrayListをimportする
+// List、ArrayListをimportする
 
 import java.util.ArrayList;
 import java.util.List;
@@ -28,16 +28,17 @@ import java.util.List;
 public class Main {
     public static void main(String[] args) {
 
-        //ArrayList を使用してString型のListを作成する
-        List<String> movies = new ArrayList<String>();
-        //Listに要素を追加する
+        // ArrayList を使用してString型のListを作成する
+        List<String> movies = new ArrayList<>();
+        // Listに要素を追加する
         movies.add("コクリコ坂から");
         movies.add("君の名は");
         movies.add("崖の上のポニョ");
         System.out.println("【映画のリスト】");
         // for-each ループを使用して要素を繰り返します
-        for (String movie : movies)
+        for (String movie : movies) {
             System.out.println(movie);
+        }
     }
 }
 ```
@@ -57,9 +58,9 @@ public class Main {
 
 # Map
 
-`Map`は、Javaで「キー」と対応する「値」をセットにして格納するデータ構造です。`配列`や`List`はインデックス番号で値を指定しますが、`Map`の場合は一意のキーで値を指定します。`
+`Map`は、Javaで「キー」と対応する「値」をセットにして格納するデータ構造です。`配列`や`List`はインデックス番号で値を指定しますが、`Map`の場合は一意のキーで値を指定します。
 
-次は`Map`インターフェースを実装したクラスの一つ`HashMap`について解決させていただきます。
+次は`Map`インターフェースを実装したクラスの一つ`HashMap`について解説いたします。
 
 ## HashMap
 
@@ -84,15 +85,15 @@ public class Main {
         words.put('D', "Dog");
         words.put('E', "Egg");
         System.out.println("【アルファベットと単語を表示する】");
-        //キーと値をforeachメソッドで繰り返す
+        // キーと値をforeachメソッドで繰り返す
         words.forEach((key, value) -> System.out.println(key + " for " + value));
         System.out.println("【アルファベットを表示する】");
-        //keySetを使用してキーをfor-each文で繰り返す
+        // keySetを使用してキーをfor-each文で繰り返す
         for (Character alphabet : words.keySet()) {
             System.out.println(alphabet);
         }
         System.out.println("【単語を表示する】");
-        //valuesを使用して単語をfor-each文で繰り返す
+        // valuesを使用して単語をfor-each文で繰り返す
         for (String word : words.values()) {
             System.out.println(word);
         }
