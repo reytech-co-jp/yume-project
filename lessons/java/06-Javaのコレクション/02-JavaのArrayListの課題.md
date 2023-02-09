@@ -18,11 +18,12 @@ ArrayListの使い方の参考リンク: [ArrayListの勉強記事]()
  
 ```java
 import java.util.ArrayList;
+import java.util.List;
 
 public class Main {
 
   public static void main(String[] args) {
-    ArrayList<Integer> numList = new ArrayList<>();
+    List<Integer> numList = new ArrayList<>();
 
   }
    
@@ -72,12 +73,13 @@ LocalDateTimeクラスのnow()メソッドを使用し、getYear()メソッド�
 
 ```java
 import java.util.ArrayList;
+import java.util.List;
 import java.time.LocalDateTime;
 
 public class Main {
 
   public static void main(String[] args) {
-    ArrayList<Integer> birthdays = new ArrayList<>();
+    List<Integer> birthdays = new ArrayList<>();
     int currentYear = LocalDateTime.now().getYear();
 
   }
