@@ -1,12 +1,12 @@
 # Mapの課題
 
-JavaのHashMapについて次の課題をやってみましょう。
+Javaの`Map`について次の課題をやってみましょう。
 
 # Mapの使い方
 
 `Map`の使い方についてはこちらのリンクを参考にしてください。
 
-Mapの使い方の参考リンク: [Mapの勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/06-Java%E3%81%AE%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/01-Java%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#map)
+`Map`の使い方の参考リンク: [Mapの勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/06-Java%E3%81%AE%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/01-Java%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#map)
 
 # お願い
 
@@ -14,7 +14,7 @@ Mapの使い方の参考リンク: [Mapの勉強記事](https://github.com/reyte
 
 # 準備
 
-`Main.java`に学生のIDと名前をセットに格納するため下記のように`studentMap`というキーと値に文字列を格納する`HashMap`を宣言してください。
+`Main.java`に学生のIDと名前をセットに格納するため、下記のように`studentMap`というキーと値に文字列を格納する`HashMap`を宣言してください。`studentMap`を`for-each`メソッドを使用して以下のように記載して出力してください。
 
 ```java
 import java.util.HashMap;
