@@ -14,7 +14,7 @@ Mapの使い方の参考リンク: [Mapの勉強記事](https://github.com/reyte
 
 # 準備
 
-`Main.java`に学生のIDと名前をセットに格納するため下記のように`studentMap`というキーと値に文字列、値に整数を格納するHashMapを宣言してください。
+`Main.java`に学生のIDと名前をセットに格納するため下記のように`studentMap`というキーと値に文字列を格納するHashMapを宣言してください。
 
 ```java
 import java.util.HashMap;
@@ -65,7 +65,7 @@ A05 - Erika
 # 課題2
 
 `課題2`ではID`A01`の学生がいるかどうか確認してこの学生がいるならクラスから除ぐコードを記載してください。削除する時は削除する要素を取得して`学生「学生名」を正常に削除されました`という形でメッセージを表示します。  
-次に削除した後の`students`マップを`for-each`文を使用して表示してください。
+次に削除した後の`studentMap`マップを`for-each`文を使用して表示してください。
 
 指定したキーが存在するか確認するには`マップ名.containsKey(キー)`、キーを指定して対応する要素を削除するには`マップ名.remove(キー)`を使用します。
 
@@ -106,7 +106,7 @@ Erikaという名前の学生が存在します！
 
 `課題4`では学生のデータを値で並べ替えます。HashMapクラスは要素の順番を保障しないから格納された順番を保持している`Map`インターフェースを実装したクラスの一つ`LinkedHashMap`クラスを使用します。
 
-まずは`sortedStudentMap`という名前でキーと値に文字列、値に整数を格納する空の挿入順序の`LinkHashMap`を作成してください。書き方は以下のように記述します。
+まずは`sortedStudentMap`という名前でキーと値に文字列を格納する空の挿入順序の`LinkHashMap`を作成してください。書き方は以下のように記述します。
 
 ```java
  LinkedHashMap<String, String> sortedStudentMap = new LinkedHashMap<>();
@@ -114,7 +114,7 @@ Erikaという名前の学生が存在します！
 
 `LinkedHashMap`の参考リンク：[LinkedHashMapの使い方](https://washboard.blog/105/)
 
-次に`studentList`という名前で`ArrayList`を使用して`List`を作成してください。`studentList`に`studentMap`からの値を繰り返し文を使用して挿入してください。挿入たら`studentList`をソートするため、`Collections`クラスのsortメソッドを使用します。書き方は以下のように記述します。
+次に`studentList`という名前で`ArrayList`を使用して`List`を作成してください。`studentList`に`studentMap`からの値を繰り返し文を使用して挿入してください。挿入したら`studentList`をソートするため、`Collections`クラスのsortメソッドを使用します。書き方は以下のように記述します。
 
 ```java
 Collections.sort(リスト名);
@@ -143,7 +143,7 @@ Yukina
 出力：
 
 ```java
-【ソートした学生のマップを表示する】
+【値でソートした学生のマップを表示する】
 A04 - Akari
 A05 - Erika
 A03 - Minato
