@@ -14,7 +14,7 @@ Mapの使い方の参考リンク: [Mapの勉強記事](https://github.com/reyte
 
 # 準備
 
-`Main.java`に学生のIDと名前をセットに格納するため下記のように`studentMap`というキーと値に文字列を格納するHashMapを宣言してください。
+`Main.java`に学生のIDと名前をセットに格納するため下記のように`studentMap`というキーと値に文字列を格納する`HashMap`を宣言してください。
 
 ```java
 import java.util.HashMap;
