@@ -6,7 +6,7 @@ JavaのArrayListについて次の課題をやってみましょう。
 
 ArrayListの使い方についてはこちらのリンクを参考にしてください。
 
-ArrayListの使い方の参考リンク: [ArrayListの勉強記事]()
+ArrayListの使い方の参考リンク: [ArrayListの勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/06-Java%E3%81%AE%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3/01-Java%E3%82%B3%E3%83%AC%E3%82%AF%E3%82%B7%E3%83%A7%E3%83%B3%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md#arraylist%E3%81%AE%E4%BD%BF%E3%81%84%E6%96%B9)
 
 # お願い
 
