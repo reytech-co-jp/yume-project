@@ -74,7 +74,7 @@ public class Main {
 
 ```
 
-戻り値のデータ型はString型を戻る関数の場合は下記のようになります。   
+戻り値のデータ型はString型を戻す関数の場合は下記のようになります   
 
 ```java
 public class Main {
