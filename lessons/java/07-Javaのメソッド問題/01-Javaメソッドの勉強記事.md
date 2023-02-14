@@ -361,7 +361,7 @@ public class Main {
 
   }
 
-  public static void check(String country, int hour) {
+  public static void getPeriod(String country, int hour) {
 
     if (hour <= 12) {
       System.out.println(country + "では午前です");
