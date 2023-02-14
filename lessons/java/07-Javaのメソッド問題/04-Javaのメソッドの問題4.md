@@ -134,6 +134,7 @@ public class Main {
 出力は以下の通りになります。
 
 ```java
-Tanakaさんの平均点は61です。
+【Tanakaさんの平均点を表示する】
+平均点 - 61
 ```
 
