@@ -355,12 +355,12 @@ public class Main {
     int english = 40;
     int chemistry = 80;
 
-    checkMark("英語", english);
-    checkMark("科学", chemistry);
+    printPassOrFail("英語", english);
+    printPassOrFail("科学", chemistry);
 
   }
 
-  public static void checkMark(String subject, int mark) {
+  public static void printPassOrFail(String subject, int mark) {
 
     if (mark >= 50) {
       System.out.println(subject + "は合格です");
@@ -374,7 +374,7 @@ public class Main {
 
 ```
 
-「checkMark」という名前のメソッドを一つ用意しました。このメソッドにはif文を使った画面出力の処理が記述されています。プログラム本体からは必要な時にこのメソッドを呼び出すと、メソッド内に記述された一連の処理が実行されることになります。   
+「printPassOrFail」という名前のメソッドを一つ用意しました。このメソッドにはif文を使った画面出力の処理が記述されています。プログラム本体からは必要な時にこのメソッドを呼び出すと、メソッド内に記述された一連の処理が実行されることになります。   
 このようにメソッドを使うことで何度も実行される一連の処理をひとまとめにしておき、必要に応じて呼び出して実行させることができるようになります。 
 
 # まとめ
