@@ -324,20 +324,19 @@ Pass
 public class Main {
 
   public static void main(String[] args) {
-    int myanmarHour = 11;
+    int english = 40;
+    int chemistry = 80;
 
-    if (myanmarHour <= 12) {
-      System.out.println("ミャンマーでは午前です");
+    if (english >= 50) {
+      System.out.println("英語は合格です");
     } else {
-      System.out.println("ミャンマーでは午後です");
+      System.out.println("英語は不合格です");
     }
 
-    int japanHour = 13;
-
-    if (japanHour <= 12) {
-      System.out.println("日本では午前です");
+    if (chemistry >= 50) {
+      System.out.println("化学は合格です");
     } else {
-      System.out.println("日本では午後です");
+      System.out.println("化学は不合格です");
     }
 
   }
@@ -353,20 +352,20 @@ if文が2回使われていますが条件式の中で使われている変数�
 public class Main {
 
   public static void main(String[] args) {
-    int myanmarHour = 11;
-    int japanHour = 13;
+    int english = 40;
+    int chemistry = 80;
 
-    check("ミャンマー", myanmarHour);
-    check("日本", japanHour);
+    checkMark("英語", english);
+    checkMark("科学", chemistry);
 
   }
 
-  public static void getPeriod(String country, int hour) {
+  public static void checkMark(String subject, int mark) {
 
-    if (hour <= 12) {
-      System.out.println(country + "では午前です");
+    if (mark >= 50) {
+      System.out.println(subject + "は合格です");
     } else {
-      System.out.println(country + "では午後です");
+      System.out.println(subject + "は不合格です");
     }
 
   }
