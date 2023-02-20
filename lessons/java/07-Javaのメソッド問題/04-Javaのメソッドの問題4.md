@@ -36,7 +36,7 @@ public class Main {
         tanakaMarks.put("歴史", 79);
         System.out.println("【Tanakaさんの成績を表示する】");
         for (Map.Entry<String, Integer> entry : tanakaMarks.entrySet()) {
-            System.out.println(entry.getKey()+" - "+entry.getValue());
+            System.out.println(entry.getKey() + " - " + entry.getValue());
         }
     }
 }
@@ -78,7 +78,7 @@ public class Main {
 
 ```java
 【Tanakaさんの合格した科目の数と不合格した項目の数を表示する】
-合格 - 5, 不合 - 2
+合格 - 5, 不合格 - 2
 ```
 
 # 課題3
@@ -119,7 +119,7 @@ public class Main {
 
 # 課題5
 
-`課題5`ではTanakaさんのすべてのマークの平均点を計算する`calculateAverage`というメソッドを作成してください。`calculateAverage`メソッドで`String`型のキーと`Integer`型の値持つ`Map`型の変数を渡します。
+`課題5`ではTanakaさんのすべてのテスト結果の平均点を計算する`calculateAverage`というメソッドを作成してください。`calculateAverage`メソッドで`String`型のキーと`Integer`型の値持つ`Map`型の変数を渡します。
 
 `calculateAverage`メソッドでは平均点を計算するためすべてのマークの合計を`Map`のサイズで割りますから`calculateSum`メソッドを呼び出してください。
 
