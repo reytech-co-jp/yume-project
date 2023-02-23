@@ -14,6 +14,8 @@ Javaのメソッドの課題をやってみましょう。
 次のようになります。
 
 ```java
+import java.util.Scanner;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -44,6 +46,8 @@ numの値の二乗値: 16
 
 課題２の形式は下記のようになります。
 ```java
+import java.util.Scanner;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -77,6 +81,8 @@ numの値の三乗値: 64
 
 課題３の形式は下記のようになります。   
 ```java
+import java.util.Scanner;
+
 public class Main {
 
   public static void main(String[] args) {
@@ -116,6 +122,8 @@ num!は 120 です。
 
 課題４の形式は下記のようになります。 
 ```java
+import java.util.Scanner;
+
 public class Main {
 
   public static void main(String[] args) {
