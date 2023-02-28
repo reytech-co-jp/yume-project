@@ -39,7 +39,7 @@ public class Employee {
 
 `setter`メソッドは、クラスのフィールドの値を設定するために使用されます。一般的に、`setter`メソッドは「set」から始まり、そのフィールドの名前を続けた形で命名されます。たとえば、フィールドが「firstName」であれば、`setter`メソッドは「setFirstName(String firstName)」となります。引数として新しい値を受け取り、その値をフィールドに設定します。
 
-`getter`メソッドと、`setter`メソッドについての参考リンク：[`getter`メソッドと、`setter`メソッドの使い方](https://kiserukun.hatenablog.com/entry/2021/07/03/120000)
+`getter`メソッドと、`setter`メソッドについての参考リンク：[getterメソッドと、setterメソッドの使い方](https://kiserukun.hatenablog.com/entry/2021/07/03/120000)
 
 # 課題3
 
