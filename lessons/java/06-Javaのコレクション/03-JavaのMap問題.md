@@ -59,7 +59,7 @@ A05 - Erika
 出力：
 
 ```java
-クラスAでは学生5人います。
+クラスAでは学生の数が５人です。
 ```
 
 # 課題2
@@ -89,9 +89,9 @@ A05 - Erika
 
 `課題3`では`Erika`という名前の学生がいるかどうかを確認して学生がいるならこの学生を取得して`「学生名」という名前の学生が存在します！`という形で表示し、いない場合は`「学生名」という名前の学生が存在しません！`という形でメッセージを表示してください。
 
-指定したキーが存在するか確認するには`マップ名.containsValue(キー)`、キーkeyに対応する値を取得するには`マップ名.get(キー)`を使用します。
+指定した値が存在するか確認するには`マップ名.containsValue(値)`、キーkeyに対応する値を取得するには`マップ名.get(キー)`を使用します。
 
-`マップ名.containsValue(キー)`の参考リンク：[マップ名.containsValue(キー)の使い方](https://www.javadrive.jp/start/collection/index3.html#section9)  
+`マップ名.containsValue(値)`の参考リンク：[マップ名.containsValue(値)の使い方](https://www.javadrive.jp/start/collection/index3.html#section9)  
 `マップ名.get(キー)`の参考リンク：[マップ名.get(キー)の使い方](<https://www.javadrive.jp/start/collection/index3.html#section6>)
 
 出力は次のようになります。
@@ -106,7 +106,7 @@ Erikaという名前の学生が存在します！
 
 `課題4`では学生のデータを値で並べ替えます。HashMapクラスは要素の順番を保障しないから格納された順番を保持している`Map`インターフェースを実装したクラスの一つ`LinkedHashMap`クラスを使用します。
 
-まずは`sortedStudentMap`という名前でキーと値に文字列を格納する空の挿入順序の`LinkHashMap`を作成してください。書き方は以下のように記述します。
+まずは`sortedStudentMap`という名前でキーと値に文字列を格納する空の挿入順序の`LinkedHashMap`を作成してください。書き方は以下のように記述します。
 
 ```java
  LinkedHashMap<String, String> sortedStudentMap = new LinkedHashMap<>();
