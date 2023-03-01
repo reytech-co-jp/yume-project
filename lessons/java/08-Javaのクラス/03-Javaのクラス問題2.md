@@ -64,7 +64,7 @@ public class BankAccount {
 # 課題３
 
 `accountNumber`、`balance`、`transactionHistory`フィールドのgetterメソッドを作成してください。今回はgetterだけで大丈夫です。   
-getter&setterを生産する方法について参考リンク：[getter&setterを生産する方法](https://www.jetbrains.com/help/idea/generating-code.html#generate-getters-setters)
+getter&setterを作成する方法について参考リンク：[getter&setterを作成する方法](https://www.jetbrains.com/help/idea/generating-code.html#generate-getters-setters)
 
 # 課題４
 
