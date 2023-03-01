@@ -24,7 +24,7 @@ public class Employee {
     private int salary;
     private String[] skills;
 
-    }
+}
 ```
 
 # 課題1
@@ -55,22 +55,22 @@ public class Employee {
 社員のデータ
 ```
 1.
-FirstName - Jhon 
+FirstName - John 
 LastName - Smith
 Salary - 800000円
-Skills - ["Java", "Python", "Php"]
+Skills - ["Java", "Python", "PHP"]
 
 2.
 FirstName -  Katherine 
 LastName -  White
 Salary - 750000円
-Skills - ["Html", "CSS", "JavaScript", "Tailwind"]
+Skills - ["HTML", "CSS", "JavaScript", "Tailwind CSS"]
 
 3.
 FirstName -  Jessica  
 LastName -  Garcia
 Salary - 940000円
-Skills - ["React", "Django", "Flutter", "Php"]
+Skills - ["React", "Django", "Flutter", "PHP"]
 ```
 
 # 課題5
@@ -81,11 +81,11 @@ Skills - ["React", "Django", "Flutter", "Php"]
 
 ```java
 【社員のデータを表示する】
-名前：Jhon Smith, 年俸：960000円, スキル：[Java, Python, Php]
-名前：Katherine White, 年俸：750000円, スキル：[Html, CSS, JavaScript, Tailwind]
-名前：Jessica Garcia, 年俸：940000円, スキル：[React, Django, Flutter, Php]
+名前：John Smith, 年俸：960000円, スキル：[Java, Python, PHP]
+名前：Katherine White, 年俸：750000円, スキル：[HTML, CSS, JavaScript, Tailwind CSS]
+名前：Jessica Garcia, 年俸：940000円, スキル：[React, Django, Flutter, PHP]
 ```
 
 # 宿題
 
-※完了したら自分のリポジトリにプールリクエストを作成してSlackにレビューを出してください。
+※完了したら自分のリポジトリにプルリクエストを作成してSlackにレビューを出してください。
