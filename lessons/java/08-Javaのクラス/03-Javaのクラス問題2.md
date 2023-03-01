@@ -55,7 +55,7 @@ public class BankAccount {
     public BankAccount(String accountNumber, int balance) {
         this.accountNumber = accountNumber;
         this.balance = balance;
-        this.transactionHistory = new ArrayList<String>();
+        this.transactionHistory = new ArrayList<>();
     }
 
 }
