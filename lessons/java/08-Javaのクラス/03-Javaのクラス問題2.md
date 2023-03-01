@@ -71,8 +71,8 @@ getter&setterを生産する方法について参考リンク：[getter&setter�
 そして、`BankAccount`クラスに`withdraw`という整数型を引数として受ける何も返さないメソッドを作成してください。引数の名前は`amount`と宣言してください。   
 `withdraw`メソッド内はもし`balance`の値は`amount`より小さい場合は`残高不足です`というメッセージを表示するようにしてください。   
 それ以外は今の`balance`から`amount`を引いて`balance`に代入してください。   
-`transaction`という文字列型を宣言し、その値として`"[" + new Date() + "] 出金 " + amount + "円";`を記載してください。   
-`new Date()`を使うと`import java.util.Date;`インポートする必要があります。   
+`transaction`という文字列型を宣言し、その値として`"[" + LocalDate.now() + "] 出金 " + amount + "円";`を記載してください。   
+`LocalDate.now()`を使うと`import java.time.LocalDate;`をインポートする必要があります。   
 そして、`transaction`文字列を`transactionHistory`に追加してください。
 
 # 課題５
