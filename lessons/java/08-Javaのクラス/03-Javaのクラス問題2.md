@@ -26,13 +26,13 @@ public class main {
 次のような`BankAccount.java`ファイルを作ってください。
 
 ```java
-import java.util.ArrayList;
+import java.util.List;
 
 public class BankAccount {
 
     private String accountNumber;
     private int balance;
-    private ArrayList<String> transactionHistory;
+    private List<String> transactionHistory;
 
 }
 ```
@@ -43,13 +43,14 @@ public class BankAccount {
 `BankAccount`クラスは次のようになります。
 
 ```java
+import java.util.List;
 import java.util.ArrayList;
 
 public class BankAccount {
 
     private String accountNumber;
     private int balance;
-    private ArrayList<String> transactionHistory;
+    private List<String> transactionHistory;
 
     public BankAccount(String accountNumber, int balance) {
         this.accountNumber = accountNumber;
