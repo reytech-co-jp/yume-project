@@ -68,8 +68,8 @@ getter&setterを生産する方法について参考リンク：[getter&setter�
 
 # 課題４
 
-そして、`BankAccount`クラスに`withDraw`という整数型を引数として受ける何も返さないメソッドを作成してください。引数の名前は`amount`と宣言してください。   
-`withDraw`メソッド内はもし`balance`の値は`amount`より小さい場合は`残高不足です`というメッセージを表示するようにしてください。   
+そして、`BankAccount`クラスに`withdraw`という整数型を引数として受ける何も返さないメソッドを作成してください。引数の名前は`amount`と宣言してください。   
+`withdraw`メソッド内はもし`balance`の値は`amount`より小さい場合は`残高不足です`というメッセージを表示するようにしてください。   
 それ以外は今の`balance`から`amount`を引いて`balance`に代入してください。   
 `transaction`という文字列型を宣言し、その値として`"[" + new Date() + "] 出金 " + amount + "円";`を記載してください。   
 `new Date()`を使うと`import java.util.Date;`インポートする必要があります。   
@@ -93,7 +93,7 @@ getter&setterを生産する方法について参考リンク：[getter&setter�
 
 キーボードから入力された文字列や数値を受け取ってプログラムの中で処理できるようにしましょう。   
 キーボードから二つの値を入力させます。   
-一つは`accountNumber`という文字列型ともう一つは`withDrawAmount`という整数型を入力できるようにしてください。   
+一つは`accountNumber`という文字列型ともう一つは`withdrawAmount`という整数型を入力できるようにしてください。   
 
 出力は下記のようになります。   
 
@@ -106,8 +106,8 @@ getter&setterを生産する方法について参考リンク：[getter&setter�
 
 # 課題７
   
-ループを使って`bankAccounts`リストにあるデータからの`accountNumber`と入力された`accountNumber`と等しい`BankAccount`オブジェクトの`withDraw`メソッドを利用します。   
-`withDraw`メソッドを呼び出すときは入力された`withDrawAmount`を引数として渡して呼び出してください。   
+ループを使って`bankAccounts`リストにあるデータからの`accountNumber`と入力された`accountNumber`と等しい`BankAccount`オブジェクトの`withdraw`メソッドを利用します。   
+`withdraw`メソッドを呼び出すときは入力された`withdrawAmount`を引数として渡して呼び出してください。   
 そのオブジェクトの`transactionHistory`を呼び出して返った値を`history`という文字列型のListを宣言して代入してください。   
 そして、`history`にある値をループを使って表示するようにしてください。   
 
