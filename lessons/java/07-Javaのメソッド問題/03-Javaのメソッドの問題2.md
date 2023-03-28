@@ -95,7 +95,7 @@ public class Main {
 出力：
 
 ```java
-【Tanakaさんの不合格した項目を表示する】
+【Tanakaさんの不合格した科目を表示する】
 化学 - 33
 英語 - 39
 ```
