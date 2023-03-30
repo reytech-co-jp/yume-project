@@ -4,7 +4,7 @@ Javaのクラスの課題をやってみましょう。
 
 # クラスについて
 
-クラスについてはこちらのリンクを参考にしてください。
+クラスについてはこちらのリンクを参考にしてください。   
 クラスの参考リンク: [クラスについて勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/07-Java%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%B9/01-Java%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md)
 
 # お願い
@@ -35,7 +35,7 @@ public class Employee {
 
 `課題2`には`Employee`クラスで各フィールドの値を取得する`getter`メソッドと、設定する`setter`メソッドを記載してください。
 
-`getter`メソッドは、クラスのフィールドの値を取得するために使用されます。一般的に、`getter`メソッドは「get」から始まり、そのフィールドの名前を続けた形で命名されます。たとえば、フィールド名が「firstName」であれば、`getter`メソッドは「getFirstName()」となりますは、フィールドの値を返すだけで、何らかの処理を行いません。
+`getter`メソッドは、クラスのフィールドの値を取得するために使用されます。一般的に、`getter`メソッドは「get」から始まり、そのフィールドの名前を続けた形で命名されます。たとえば、フィールド名が「firstName」であれば、`getter`メソッドは「getFirstName()」となりますが、フィールドの値を返すだけで、何らかの処理を行いません。
 
 `setter`メソッドは、クラスのフィールドの値を設定するために使用されます。一般的に、`setter`メソッドは「set」から始まり、そのフィールドの名前を続けた形で命名されます。たとえば、フィールドが「firstName」であれば、`setter`メソッドは「setFirstName(String firstName)」となります。引数として新しい値を受け取り、その値をフィールドに設定します。
 
@@ -43,7 +43,7 @@ public class Employee {
 
 # 課題3
 
-`Employee`クラスで社員の`firstName`を`lastName`結合して`String`型の結果を返す`getFullName`メソッドを記載してください。
+`Employee`クラスで社員の`firstName`と`lastName`を結合して`String`型の結果を返す`getFullName`メソッドを記載してください。
 
 次に社員の年俸を計算する`getAnnualSalary`というメソッドを記載してください。年俸とは1年間の労働に対して支払われる給与のことです。年俸を計算するためには、社員の月の給与に12(1年間)をかけることで得られます。
 
@@ -88,4 +88,4 @@ Skills - ["React", "Django", "Flutter", "PHP"]
 
 # 宿題
 
-※完了したら自分のリポジトリにプルリクエストを作成してSlackにレビューを出してください。
+※この宿題はSlackに提出しなくても大丈夫です。
