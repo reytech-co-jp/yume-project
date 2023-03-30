@@ -5,7 +5,7 @@ Javaのクラスの課題をやってみましょう。
 # クラスの使い方
 
 Javaのクラスの使い方についてはこちらのリンクを参考にしてください。   
-Javaのクラスの使い方の参考リンク: [Javaのクラスの使い方]()
+Javaのクラスの使い方の参考リンク: [Javaのクラスの使い方](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/08-Javaのクラス/01-Javaクラスの勉強記事.md)
 
 # 準備
 
