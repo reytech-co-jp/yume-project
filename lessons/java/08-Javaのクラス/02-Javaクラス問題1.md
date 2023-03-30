@@ -5,7 +5,7 @@ Javaのクラスの課題をやってみましょう。
 # クラスについて
 
 クラスについてはこちらのリンクを参考にしてください。   
-クラスの参考リンク: [クラスについて勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/07-Java%E3%81%AE%E3%82%AF%E3%83%A9%E3%82%B9/01-Java%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%AE%E5%8B%89%E5%BC%B7%E8%A8%98%E4%BA%8B.md)
+クラスの参考リンク: [クラスについて勉強記事](https://github.com/reytech-co-jp/yume-project/blob/main/lessons/java/08-Javaのクラス/01-Javaクラスの勉強記事.md)
 
 # お願い
 
